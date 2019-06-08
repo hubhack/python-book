@@ -1,80 +1,87 @@
 {
-    "title": "Python-book",
-    "description": "致力于分析Python",
-    "author": "Prodesire",
-    "output.name": "site",
+    "title": "python",
+    "author": "hubhack",
+    "description": "select * from learn",
     "language": "zh-hans",
     "gitbook": "3.2.3",
-    "root": ".",
+    "styles": {
+        "website": "./styles/website.css"
+    },
     "structure": {
-      "readme": "README.md"
+        "readme": "README.md"
     },
     "links": {
-      "sidebar": {
-        "主页": "https://github.com/hubhack/python-book"
-      }
+        "sidebar": {
+            "我的狗窝": "https://github.com/hubhack/python-book"
+        }
     },
     "plugins": [
-      "-search",
-      "search-plus@^0.0.11",
-      "-sharing",
-      "sharing-plus",
-      "github@^2.0.0",
-      "github-buttons@2.1.0",
-      "edit-link@^2.0.2",
-      "splitter",
-      "tbfed-pagefooter",
-      "prism",
-      "page-toc-button",
-      "back-to-top-button"
+        "-sharing",
+        "splitter",
+        "expandable-chapters-small",
+        "anchors",
+
+        "github",
+        "github-buttons",
+        "donate",
+        "sharing-plus",
+        "anchor-navigation-ex",
+        "favicon"
     ],
-  
     "pluginsConfig": {
-      "theme-default": {
-        "showLevel": true
-      },
-      "github": {
-        "url": "https://github.com/hubhack/python-book"
-      },
-      "github-buttons": {
-        "repo": "hubhack/python-book",
-        "types": ["star"],
-        "size": "small"
-      },
-      "sharing": {
-        "weibo": true,
-        "douban": true,
-        "linkedin": true,
-        "facebook": true,
-        "google": true,
-        "twitter": true,
-        "all": ["weibo", "douban", "linkedin", "facebook", "google", "twitter"]
-      },
-      "tbfed-pagefooter": {
-        "copyright": "Copyright © Prodesire 2018",
-        "modify_label": "该文件修订时间：",
-        "modify_format": "YYYY-MM-DD HH:mm:ss"
-      },
-      "edit-link": {
-        "base":
-          "https://github.com/hubhack/python-book",
-        "label": "编辑此页面"
-      },
-      "anchor-navigation-ex": {
-        "isRewritePageTitle": false,
-        "tocLevel1Icon": "fa fa-hand-o-right",
-        "tocLevel2Icon": "fa fa-hand-o-right",
-        "tocLevel3Icon": "fa fa-hand-o-right"
-      },
-      "prism": {
-        "lang": {
-          "console": "bash",
-          "shell": "bash"
+        "github": {
+            "url": "https://github.com/hubhack"
         },
-        "css": [
-          "prismjs/themes/prism-okaidia.css"
-        ]
-      }
+        "github-buttons": {
+            "buttons": [{
+                "user": "hubhack",
+                "repo": "python-book",
+                "type": "star",
+                "size": "small",
+                "count": true
+                }
+            ]
+        },
+        "donate": {
+            "alipay": "./source/images/donate.png",
+            "title": "",
+            "button": "赞赏",
+            "alipayText": " "
+        },
+        "sharing": {
+            "douban": false,
+            "facebook": false,
+            "google": false,
+            "hatenaBookmark": false,
+            "instapaper": false,
+            "line": false,
+            "linkedin": false,
+            "messenger": false,
+            "pocket": false,
+            "qq": false,
+            "qzone": false,
+            "stumbleupon": false,
+            "twitter": false,
+            "viber": false,
+            "vk": false,
+            "weibo": false,
+            "whatsapp": false,
+            "all": [
+                "google", "facebook", "weibo", "twitter",
+                "qq", "qzone", "linkedin", "pocket"
+            ]
+        },
+        "anchor-navigation-ex": {
+            "showLevel": false
+        },
+        "favicon":{
+            "shortcut": "./source/images/favicon.jpg",
+            "bookmark": "./source/images/favicon.jpg",
+            "appleTouch": "./source/images/apple-touch-icon.jpg",
+            "appleTouchMore": {
+                "120x120": "./source/images/apple-touch-icon.jpg",
+                "180x180": "./source/images/apple-touch-icon.jpg"
+            }
+        }
     }
-  }
-  
+}
