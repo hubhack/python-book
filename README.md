@@ -1,16 +1,16 @@
 # 介绍
 
-本项目致力于对 Python 学习路上的分享
+本项目是用gitbook + github page 构建而成的.
+是笔者学习python一路上的学习分享.
 
-希望各位 Python 爱好者能参与其中，一起探索 Python 魔法背后的奥秘！
 
 # 使用
 
-您可以直接访问 [在线版](https://hubhack.cn/python-book/)，或者根据以下步骤访问本地版。
+您可以直接访问 [在线版](https://hubhack.cn/python-book/)，或者有的朋友网速不好, 可以根据以下步骤访问本地版。
 
 ## 前置条件
 
-您的系统上需要安装好 node。
+您的系统上需要安装好 node。安装过程请百度.
 
 ## 使用 make 命令
 
@@ -38,32 +38,10 @@ gitbook install
 执行如下命令运行服务端：
 
 ```console
-gitbook serve
+gitbook serve # 开启服务
 ```
 
 ## 访问
 
 直接访问 http://localhost:4000 即可查看本书内容。
-
-# Roadmap
-
-大体按照《Python 源码剖析》中的目录结构进行编写。依次介绍 Python 源码基本信息、内建对象和虚拟机。
-
-- [x] 章节
-  - [] 序章
-  - [x] 前言
-  - [] Python 源代码的组织
-  - [] Windows 环境下编译 Python
-  - [] UNIX/Linux 环境下编译 Python
-  - [] 修改 Python 源码
-- [ ] Python 内建对象
-  - [] Python 对象初探
-  - [ ] Python 整数对象
-  - [ ] Python 字符串 对象
-  - [ ] Python List 对象
-  - [] Python Dict 对象
-  - [] Python Set 对象
- 
-
-
 
