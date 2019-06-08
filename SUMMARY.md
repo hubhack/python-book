@@ -13,7 +13,7 @@
 - [语法糖]()
 
 ## 第 3 部分：Python 容器
-- [string(字符串)](./objects/string.md)
+- [string(字符串)](objects/string.md)
 - [list(列表)]()
 - [tuple(元组)]()
 - [set(集合)]()
