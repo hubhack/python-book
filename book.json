@@ -34,8 +34,8 @@
       },
       "github-buttons": {
         "buttons": [{
-          "user": "kuangshp",
-          "repo": "mysql",
+          "user": "",
+          "repo": "",
           "type": "star",
           "size": "small",
           "count": true
