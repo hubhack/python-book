@@ -7,26 +7,26 @@
 - [python源代码]()
 
 ## 第 2 部分：Python 基础 
-- [语法]()
-- [函数]()
-- [装饰器]()
+- [语法](objects/语法.md)
+- [函数](objects/函数.md)
+- [装饰器](objects/装饰器.md)
 - [语法糖]()
 
 ## 第 3 部分：Python 容器
 - [string(字符串)](objects/string.md)
-- [list(列表)]()
-- [tuple(元组)]()
-- [set(集合)]()
-- [dict(字典)]()
+- [list(列表)](objects/list.md)
+- [tuple(元组)](objects/tuple.md)
+- [set(集合)](objects/set.md)
+- [dict(字典)](objects/dict.md)
 
 ## 第 4部分: Python 面向对象
-- [面向对象]()
+- [面向对象](objects/面向对象.md)
 - [魔术方法]()
-- [描述器]()
+- [描述器](objects/描述器.md)
 
 ## 第 5 部分：Python 并发
 - [多线程]()
 
 
 ## 第 6 部分：Python IO
-- [文件]()
+- [文件](objects/文件操作.md)
