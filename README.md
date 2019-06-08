@@ -63,17 +63,7 @@ gitbook serve
   - [ ] Python List 对象
   - [x] Python Dict 对象
   - [x] Python Set 对象
-  - [ ] 实现简版 Python
-- [ ] Python 虚拟机
-  - [ ] Python 编译结果
-  - [ ] Python 虚拟机框架
-  - [ ] 虚拟机一般表达式
-  - [ ] Python 虚拟机控制流
-  - [ ] Python 虚拟机函数机制
-  - [ ] Python 运行环境初始化
-  - [ ] Python 模块加载机制
-  - [ ] Python 多线程机制
-  - [ ] Python 内存管理机制
+ 
 
 
 
