@@ -1,7 +1,7 @@
 # 介绍
 
-本项目是用gitbook + github page 构建而成的.
-
+本项目是用gitbook + github page构建而成的.
+是一份python入门学习指南
 是笔者学习python一路上的学习分享.
 
 
