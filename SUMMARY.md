@@ -25,7 +25,7 @@
 - [描述器](objects/描述器.md)
 
 ## 第 5 部分：Python 并发
-- [多线程]()
+- [多线程](objects/多线程.md)
 
 
 ## 第 6 部分：Python IO
