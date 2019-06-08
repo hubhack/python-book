@@ -1,6 +1,7 @@
 # 介绍
 
 本项目是用gitbook + github page 构建而成的.
+
 是笔者学习python一路上的学习分享.
 
 
@@ -47,3 +48,6 @@ gitbook serve # 开启服务
 
 直接访问 http://localhost:4000 即可查看本书内容。
 
+## 目录
+
+- [前言](README.md)
