@@ -1,0 +1,1210 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>面向对象 · python</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="hubhack">
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-anchors/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-tbfed-pagefooter/footer.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-donate/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-anchor-navigation-ex/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+
+        
+    
+    
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="魔术方法.html" />
+    
+    
+    <link rel="prev" href="dict.html" />
+    
+
+    
+        <link rel="shortcut icon" href='../source/images/favicon.jpg' type="image/x-icon">
+    
+    
+        <link rel="bookmark" href='../source/images/favicon.jpg' type="image/x-icon">
+    
+    
+        <link rel="apple-touch-icon" href='../source/images/apple-touch-icon.jpg'>
+    
+    
+        
+        <link rel="apple-touch-icon" sizes="120x120" href="../source/images/apple-touch-icon.jpg">
+        
+        <link rel="apple-touch-icon" sizes="180x180" href="../source/images/apple-touch-icon.jpg">
+        
+    
+
+    <style>
+    @media only screen and (max-width: 640px) {
+        .book-header .hidden-mobile {
+            display: none;
+        }
+    }
+    </style>
+    <script>
+        window["gitbook-plugin-github-buttons"] = {"buttons":[{"user":"hubhack","repo":"python-book","type":"star","size":"small","count":true}]};
+    </script>
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+    
+        
+        <li>
+            <a href="https://github.com/hubhack/python-book" target="_blank" class="custom-link">主页</a>
+        </li>
+    
+    
+
+    
+    <li class="divider"></li>
+    
+
+    
+        
+        <li class="header">第 1 部分：序章</li>
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    前言
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">第 2 部分：Python 基础</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="语法.html">
+            
+                <a href="语法.html">
+            
+                    
+                    语法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="函数.html">
+            
+                <a href="函数.html">
+            
+                    
+                    函数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="装饰器.html">
+            
+                <a href="装饰器.html">
+            
+                    
+                    装饰器
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">第 3 部分：Python 容器</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="string.html">
+            
+                <a href="string.html">
+            
+                    
+                    string(字符串)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="list.html">
+            
+                <a href="list.html">
+            
+                    
+                    list(列表)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="tuple.md">
+            
+                <span>
+            
+                    
+                    tuple(元组)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4" data-path="set.html">
+            
+                <a href="set.html">
+            
+                    
+                    set(集合)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.5" data-path="dict.html">
+            
+                <a href="dict.html">
+            
+                    
+                    dict(字典)
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">第 4部分: Python 面向对象</li>
+        
+        
+    
+        <li class="chapter active" data-level="4.1" data-path="面向对象.html">
+            
+                <a href="面向对象.html">
+            
+                    
+                    面向对象
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="魔术方法.html">
+            
+                <a href="魔术方法.html">
+            
+                    
+                    魔术方法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3" data-path="描述器.html">
+            
+                <a href="描述器.html">
+            
+                    
+                    描述器
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">第 5 部分：Python 并发</li>
+        
+        
+    
+        <li class="chapter " data-level="5.1" data-path="多线程.html">
+            
+                <a href="多线程.html">
+            
+                    
+                    多线程
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">第 6 部分：Python IO</li>
+        
+        
+    
+        <li class="chapter " data-level="6.1" data-path="文件操作.html">
+            
+                <a href="文件操作.html">
+            
+                    
+                    文件
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >面向对象</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <p><img src="media/image1.jpg" alt=""></p>
+<p><strong>&#x9762;&#x5411;&#x5BF9;&#x8C61;</strong></p>
+<p><strong>&#x8BED;&#x8A00;&#x7684;&#x5206;&#x7C7B;</strong></p>
+<p><strong>&#x9762;&#x5411;&#x673A;&#x5668;</strong></p>
+<p><strong>&#x62BD;&#x8C61;&#x6210;&#x673A;&#x5668;&#x6307;&#x4EE4;&#xFF0C;&#x673A;&#x5668;&#x5BB9;&#x6613;&#x7406;&#x89E3;</strong></p>
+<p><strong>&#x4EE3;&#x8868;&#xFF1A;&#x6C47;&#x7F16;&#x8BED;&#x8A00;</strong></p>
+<p><strong>&#x9762;&#x5411;&#x8FC7;&#x7A0B;</strong></p>
+<p><strong>&#x505A;&#x4E00;&#x4EF6;&#x4E8B;&#x60C5;&#xFF0C;&#x6392;&#x51FA;&#x4E2A;&#x6B65;&#x9AA4;&#xFF0C;&#x7B2C;&#x4E00;&#x6B65;&#x5E72;&#x4EC0;&#x4E48;&#xFF0C;&#x7B2C;&#x4E8C;&#x6B65;&#x5E72;&#x4EC0;&#x4E48;&#xFF0C;&#x5982;&#x679C;&#x51FA;&#x73B0;&#x60C5;&#x51B5;A&#xFF0C;&#x505A;&#x4EC0;&#x4E48;&#x5904;&#x7406;&#xFF0C;&#x5982;&#x679C;&#x51FA;&#x73B0;&#x4E86;&#x60C5;&#x51B5;B&#xFF0C;&#x505A; &#x4EC0;&#x4E48;&#x5904;&#x7406;&#x3002;</strong></p>
+<p><strong>&#x95EE;&#x9898;&#x89C4;&#x6A21;&#x5C0F;&#xFF0C;&#x53EF;&#x4EE5;&#x6B65;&#x9AA4;&#x5316;&#xFF0C;&#x6309;&#x90E8;&#x5C31;&#x73ED;&#x5904;&#x7406;&#x3002;</strong></p>
+<p><strong>&#x4EE3;&#x8868;&#xFF1A;C&#x8BED;&#x8A00;</strong></p>
+<p><strong>&#x9762;&#x5411;&#x5BF9;&#x8C61;OOP</strong></p>
+<p><strong>&#x968F;&#x7740;&#x8BA1;&#x7B97;&#x673A;&#x9700;&#x8981;&#x89E3;&#x51B3;&#x7684;&#x95EE;&#x9898;&#x7684;&#x89C4;&#x6A21;&#x6269;&#x5927;&#xFF0C;&#x60C5;&#x51B5;&#x8D8A;&#x6765;&#x8D8A;&#x590D;&#x6742;&#x3002;&#x9700;&#x8981;&#x5F88;&#x591A;&#x4EBA;&#x3001;&#x5F88;&#x591A;&#x90E8;&#x95E8;&#x534F;&#x4F5C;&#xFF0C;&#x9762;&#x5411;&#x8FC7;&#x7A0B;&#x7F16;&#x7A0B;&#x4E0D;&#x592A;&#x9002;&#x5408; &#x4E86;&#x3002;</strong></p>
+<p><strong>&#x4EE3;&#x8868;&#xFF1A;C++&#x3001;Java&#x3001;Python&#x7B49;</strong></p>
+<p><strong>&#x9762;&#x5411;&#x5BF9;&#x8C61;</strong></p>
+<p><strong>&#x4EC0;&#x4E48;&#x662F;&#x9762;&#x5411;&#x5BF9;&#x8C61;&#x5462;&#xFF1F;</strong></p>
+<p><strong>&#x4E00;&#x79CD;&#x8BA4;&#x8BC6;&#x4E16;&#x754C;&#x3001;&#x5206;&#x6790;&#x4E16;&#x754C;&#x7684;&#x65B9;&#x6CD5;&#x8BBA;&#x3002;&#x5C06;&#x4E07;&#x4E8B;&#x4E07;&#x7269;&#x62BD;&#x8C61;&#x4E3A;&#x5404;&#x79CD;&#x5BF9;&#x8C61;&#x3002;</strong></p>
+<p><strong>&#x7C7B;class</strong></p>
+<p><strong>&#x7C7B;&#x662F;&#x62BD;&#x8C61;&#x7684;&#x6982;&#x5FF5;&#xFF0C;&#x662F;&#x4E07;&#x4E8B;&#x4E07;&#x7269;&#x7684;&#x62BD;&#x8C61;&#xFF0C;&#x662F;&#x4E00;&#x7C7B;&#x4E8B;&#x7269;&#x7684;&#x5171;&#x540C;&#x7279;&#x5F81;&#x7684;&#x96C6;&#x5408;&#x3002;</strong></p>
+<p><strong>&#x7528;&#x8BA1;&#x7B97;&#x673A;&#x8BED;&#x8A00;&#x6765;&#x63CF;&#x8FF0;&#x7C7B;&#xFF0C;&#x662F;&#x5C5E;&#x6027;&#x548C;&#x65B9;&#x6CD5;&#x7684;&#x96C6;&#x5408;&#x3002;</strong></p>
+<p><strong>&#x5BF9;&#x8C61;instance&#x3001;object</strong></p>
+<p><strong>&#x5BF9;&#x8C61;&#x662F;&#x7C7B;&#x7684;&#x5177;&#x8C61;&#xFF0C;&#x662F;&#x4E00;&#x4E2A;&#x5B9E;&#x4F53;&#x3002;</strong></p>
+<p><strong>&#x5BF9;&#x4E8E;&#x6211;&#x4EEC;&#x6BCF;&#x4E2A;&#x4EBA;&#x8FD9;&#x4E2A;&#x4E2A;&#x4F53;&#xFF0C;&#x90FD;&#x662F;&#x62BD;&#x8C61;&#x6982;&#x5FF5;&#x4EBA;&#x7C7B;&#x7684;&#x4E0D;&#x540C;&#x7684;&#x5B9E;&#x4F53;&#x3002;</strong></p>
+<p><strong>&#x4E3E;&#x4F8B;&#xFF1A;</strong></p>
+<p><strong>&#x4F60;&#x5403;&#x9C7C;</strong></p>
+<p><strong>&#x4F60;&#xFF0C;&#x5C31;&#x662F;&#x5BF9;&#x8C61;&#xFF1B;&#x9C7C;&#xFF0C;&#x4E5F;&#x662F;&#x5BF9;&#x8C61;&#xFF1B;&#x5403;&#x5C31;&#x662F;&#x52A8;&#x4F5C;</strong></p>
+<p><strong>&#x4F60;&#x662F;&#x5177;&#x4F53;&#x7684;&#x4EBA;&#xFF0C;&#x662F;&#x5177;&#x4F53;&#x7684;&#x5BF9;&#x8C61;&#x3002;&#x4F60;&#x5C5E;&#x4E8E;&#x4EBA;&#x7C7B;&#xFF0C;&#x4EBA;&#x7C7B;&#x662F;&#x4E2A;&#x62BD;&#x8C61;&#x7684;&#x6982;&#x5FF5;&#xFF0C;&#x662F;&#x65E0;&#x6570;&#x5177;&#x4F53;&#x7684;&#x4EBA;&#x7684;&#x4E2A;&#x4F53;&#x7684;&#x62BD;&#x8C61;&#x3002;</strong></p>
+<p><strong>&#x9C7C;&#xFF0C;&#x4E5F;&#x662F;&#x5177;&#x4F53;&#x7684;&#x5BF9;&#x8C61;&#xFF0C;&#x5C31;&#x662F;&#x4F60;&#x5403;&#x7684;&#x8FD9;&#x4E00;&#x6761;&#x5177;&#x4F53;&#x7684;&#x9C7C;&#x3002;&#x8FD9;&#x6761;&#x9C7C;&#x5C5E;&#x4E8E;&#x9C7C;&#x7C7B;&#xFF0C;&#x9C7C;&#x7C7B;&#x662F;&#x65E0;&#x6570;&#x7684;&#x9C7C;&#x62BD;&#x8C61;&#x51FA;&#x6765;&#x7684;&#x6982;&#x5FF5;&#x3002;</strong></p>
+<p><strong>&#x5403;&#xFF0C;&#x662F;&#x52A8;&#x4F5C;&#xFF0C;&#x4E5F;&#x662F;&#x64CD;&#x4F5C;&#xFF0C;&#x4E5F;&#x662F;&#x65B9;&#x6CD5;&#xFF0C;&#x8FD9;&#x4E2A;&#x5403;&#x662F;&#x4F60;&#x7684;&#x52A8;&#x4F5C;&#xFF0C;&#x4E5F;&#x5C31;&#x662F;&#x4EBA;&#x7C7B;&#x5177;&#x6709;&#x7684;&#x65B9;&#x6CD5;&#x3002;&#x5982;&#x679C;&#x53CD;&#x8FC7;&#x6765;&#xFF0C;&#x9C7C;&#x5403;&#x4EBA;&#x3002;&#x5403;&#x5C31;&#x662F;&#x9C7C; &#x7C7B;&#x7684;&#x52A8;&#x4F5C;&#x4E86;&#x3002;</strong></p>
+<p><strong>&#x5403;&#xFF0C;&#x8FD9;&#x4E2A;&#x52A8;&#x4F5C;&#xFF0C;&#x5F88;&#x591A;&#x52A8;&#x7269;&#x90FD;&#x5177;&#x6709;&#x7684;&#x52A8;&#x4F5C;&#xFF0C;&#x4EBA;&#x7C7B;&#x548C;&#x9C7C;&#x7C7B;&#x90FD;&#x5C5E;&#x4E8E;&#x52A8;&#x7269;&#x7C7B;&#xFF0C;&#x800C;&#x52A8;&#x7269;&#x7C7B;&#x662F;&#x62BD;&#x8C61;&#x7684;&#x6982;&#x5FF5;&#xFF0C;&#x662F;&#x52A8;&#x7269;&#x90FD;&#x6709;&#x5403;&#x7684;&#x52A8; &#x4F5C;&#xFF0C;&#x4F46;&#x662F;&#x5403;&#x6CD5;&#x4E0D;&#x540C;&#x800C;&#x5DF2;&#x3002;</strong></p>
+<p><strong>&#x4F60;&#x9A7E;&#x9A76;&#x8F66;&#xFF0C;&#x8FD9;&#x4E2A;&#x8F66;&#x4E5F;&#x662F;&#x8F66;&#x7C7B;&#x7684;&#x5177;&#x4F53;&#x7684;&#x5BF9;&#x8C61;&#xFF08;&#x5B9E;&#x4F8B;&#xFF09;&#xFF0C;&#x9A7E;&#x9A76;&#x8FD9;&#x4E2A;&#x52A8;&#x4F5C;&#x662F;&#x9C7C;&#x7C7B;&#x4E0D;&#x5177;&#x6709;&#x7684;&#xFF0C;&#x662F;&#x4EBA;&#x7C7B;&#x5177;&#x6709;&#x7684;&#x65B9;&#x6CD5;&#x3002;</strong></p>
+<p><strong>&#x5C5E;&#x6027;&#xFF1A;&#x5B83;&#x662F;&#x5BF9;&#x8C61;&#x72B6;&#x6001;&#x7684;&#x62BD;&#x8C61;&#xFF0C;&#x7528;&#x6570;&#x636E;&#x7ED3;&#x6784;&#x6765;&#x63CF;&#x8FF0;&#x3002;</strong></p>
+<p><strong>&#x64CD;&#x4F5C;&#xFF1A;&#x5B83;&#x662F;&#x5BF9;&#x8C61;&#x884C;&#x4E3A;&#x7684;&#x62BD;&#x8C61;&#xFF0C;&#x7528;&#x64CD;&#x4F5C;&#x540D;&#x548C;&#x5B9E;&#x73B0;&#x8BE5;&#x64CD;&#x4F5C;&#x7684;&#x65B9;&#x6CD5;&#x6765;&#x63CF;&#x8FF0;&#x3002;</strong></p>
+<p><img src="media/image2.jpg" alt=""></p>
+<p><strong>&#x6BCF;&#x4E2A;&#x4EBA;&#x90FD;&#x662F;&#x4EBA;&#x7C7B;&#x7684;&#x4E00;&#x4E2A;&#x5355;&#x72EC;&#x7684;&#x5B9E;&#x4F8B;&#xFF0C;&#x90FD;&#x6709;&#x81EA;&#x5DF1;&#x7684;&#x540D;&#x5B57;&#x3001;&#x8EAB;&#x9AD8;&#x3001;&#x4F53;&#x91CD;&#x7B49;&#x4FE1;&#x606F;&#xFF0C;&#x8FD9;&#x4E9B;&#x4FE1;&#x606F;&#x662F;&#x4E2A;&#x4EBA;&#x7684;&#x5C5E;&#x6027;&#xFF0C;&#x4F46;&#x662F;&#xFF0C;&#x8FD9;&#x4E9B;&#x4FE1; &#x606F;&#x4E0D;&#x80FD;&#x4FDD;&#x5B58;&#x5728;&#x4EBA;&#x7C7B;&#x4E2D;&#xFF0C;&#x56E0;&#x4E3A;&#x5B83;&#x662F;&#x62BD;&#x8C61;&#x7684;&#x6982;&#x5FF5;&#xFF0C;&#x4E0D;&#x80FD;&#x4FDD;&#x7559;&#x5177;&#x4F53;&#x7684;&#x503C;&#x3002;</strong></p>
+<p><strong>&#x800C;&#x4EBA;&#x7C7B;&#x7684;&#x5B9E;&#x4F8B;&#xFF0C;&#x662F;&#x5177;&#x4F53;&#x7684;&#x4EBA;&#xFF0C;&#x4ED6;&#x53EF;&#x4EE5;&#x5B58;&#x50A8;&#x8FD9;&#x4E9B;&#x5177;&#x4F53;&#x7684;&#x5C5E;&#x6027;&#xFF0C;&#x800C;&#x4E14;&#x53EF;&#x4EE5;&#x4E0D;&#x540C;&#x4EBA;&#x6709;&#x4E0D;&#x540C;&#x7684;&#x5C5E;&#x6027;&#x3002;</strong></p>
+<p><strong>&#x54F2;&#x5B66;</strong></p>
+<p><strong>&#x4E00;&#x5207;&#x7686;&#x5BF9;&#x8C61;</strong></p>
+<p><strong>&#x5BF9;&#x8C61;&#x662F;&#x6570;&#x636E;&#x548C;&#x64CD;&#x4F5C;&#x7684;&#x5C01;&#x88C5;</strong></p>
+<p><strong>&#x5BF9;&#x8C61;&#x662F;&#x72EC;&#x7ACB;&#x7684;&#xFF0C;&#x4F46;&#x662F;&#x5BF9;&#x8C61;&#x4E4B;&#x95F4;&#x53EF;&#x4EE5;&#x76F8;&#x4E92;&#x4F5C;&#x7528;</strong></p>
+<p><strong>&#x76EE;&#x524D;OOP&#x662F;&#x6700;&#x63A5;&#x8FD1;&#x4EBA;&#x7C7B;&#x8BA4;&#x77E5;&#x7684;&#x7F16;&#x7A0B;&#x8303;&#x5F0F;</strong></p>
+<p><strong>&#x9762;&#x5411;&#x5BF9;&#x8C61;3&#x8981;&#x7D20;</strong></p>
+<blockquote>
+<p><strong>1. &#x5C01;&#x88C5;</strong></p>
+<p><strong>&#x7EC4;&#x88C5;&#xFF1A;&#x5C06;&#x6570;&#x636E;&#x548C;&#x64CD;&#x4F5C;&#x7EC4;&#x88C5;&#x5230;&#x4E00;&#x8D77;&#x3002;</strong></p>
+<p><strong>&#x9690;&#x85CF;&#x6570;&#x636E;&#xFF1A;&#x5BF9;&#x5916;&#x53EA;&#x66B4;&#x9732;&#x4E00;&#x4E9B;&#x63A5;&#x53E3;&#xFF0C;&#x901A;&#x8FC7;&#x63A5;&#x53E3;&#x8BBF;&#x95EE;&#x5BF9;&#x8C61;&#x3002;&#x6BD4;&#x5982;&#x9A7E;&#x9A76;&#x5458;&#x4F7F;&#x7528;&#x6C7D;&#x8F66;&#xFF0C;&#x4E0D;&#x9700;&#x8981;&#x4E86;&#x89E3;&#x6C7D;&#x8F66;&#x7684;&#x6784;&#x9020;&#x7EC6; &#x8282;&#xFF0C;&#x53EA;&#x9700;&#x8981;&#x77E5;&#x9053;&#x4F7F;&#x7528;&#x4EC0;&#x4E48;&#x90E8;&#x4EF6;&#x600E;&#x4E48;&#x9A7E;&#x9A76;&#x5C31;&#x884C;&#xFF0C;&#x8E29;&#x4E86;&#x6CB9;&#x95E8;&#x5C31;&#x80FD;&#x8DD1;&#xFF0C;&#x53EF;&#x4EE5;&#x4E0D;&#x4E86;&#x89E3;&#x5176;&#x4E2D;&#x7684;&#x673A;&#x52A8;&#x539F;&#x7406;&#x3002;</strong></p>
+<p><strong>2. &#x7EE7;&#x627F;</strong></p>
+<p><strong>&#x591A;&#x590D;&#x7528;&#xFF0C;&#x7EE7;&#x627F;&#x6765;&#x7684;&#x5C31;&#x4E0D;&#x7528;&#x81EA;&#x5DF1;&#x5199;&#x4E86;</strong></p>
+<p><strong>&#x591A;&#x7EE7;&#x627F;&#x5C11;&#x4FEE;&#x6539;&#xFF0C;OCP&#xFF08;Open-closed Principle&#xFF09;&#xFF0C;&#x4F7F;&#x7528;&#x7EE7;&#x627F;&#x6765;&#x6539;&#x53D8;&#xFF0C;&#x6765;&#x4F53;&#x73B0;&#x4E2A;&#x6027;</strong></p>
+<p><strong>3. &#x591A;&#x6001;</strong></p>
+<p><strong>&#x9762;&#x5411;&#x5BF9;&#x8C61;&#x7F16;&#x7A0B;&#x6700;&#x7075;&#x6D3B;&#x7684;&#x5730;&#x65B9;&#xFF0C;&#x52A8;&#x6001;&#x7ED1;&#x5B9A;</strong></p>
+</blockquote>
+<p><strong>&#x4EBA;&#x7C7B;&#x5C31;&#x662F;&#x5C01;&#x88C5;&#xFF1B;</strong></p>
+<p><strong>&#x4EBA;&#x7C7B;&#x7EE7;&#x627F;&#x81EA;&#x52A8;&#x7269;&#x7C7B;&#xFF0C;&#x5B69;&#x5B50;&#x7EE7;&#x627F;&#x7236;&#x6BCD;&#x7279;&#x5F81;&#x3002;&#x5206;&#x4E3A;&#x5355;&#x4E00;&#x7EE7;&#x627F;&#x3001;&#x591A;&#x7EE7;&#x627F;&#xFF1B;</strong></p>
+<p><strong>&#x591A;&#x6001;&#xFF0C;&#x7EE7;&#x627F;&#x81EA;&#x52A8;&#x7269;&#x7C7B;&#x7684;&#x4EBA;&#x7C7B;&#x3001;&#x732B;&#x7C7B;&#x7684;&#x64CD;&#x4F5C;&quot;&#x5403;&quot;&#x4E0D;&#x540C;&#x3002;</strong></p>
+<hr>
+<p><strong>Python&#x7684;&#x7C7B;</strong></p>
+<p><strong>&#x5B9A;&#x4E49;</strong></p>
+<blockquote>
+<p><strong>class ClassName:</strong></p>
+<p><strong>&#x8BED;&#x53E5;&#x5757;</strong></p>
+<p><strong>1. &#x5FC5;&#x987B;&#x4F7F;&#x7528;class&#x5173;&#x952E;&#x5B57;</strong></p>
+<p><strong>2. &#x7C7B;&#x540D;&#x5FC5;&#x987B;&#x662F;&#x7528;&#x5927;&#x9A7C;&#x5CF0;&#x547D;&#x540D;</strong></p>
+<p><strong>3. &#x7C7B;&#x5B9A;&#x4E49;&#x5B8C;&#x6210;&#x540E;&#xFF0C;&#x5C31;&#x4EA7;&#x751F;&#x4E86;&#x4E00;&#x4E2A;&#x7C7B;&#x5BF9;&#x8C61;&#xFF0C;&#x7ED1;&#x5B9A;&#x5230;&#x4E86;&#x6807;&#x8BC6;&#x7B26;ClassName&#x4E0A;</strong></p>
+</blockquote>
+<p><strong>&#x4E3E;&#x4F8B;</strong></p>
+<p><img src="media/image3.jpg" alt=""></p>
+<blockquote>
+<p><strong>class MyClass:</strong></p>
+<p><strong>\&quot;\&quot;\&quot;A example class\&quot;\&quot;\&quot;</strong></p>
+<p><strong>x = \&apos;abc\&apos; # &#x7C7B;&#x5C5E;&#x6027;</strong></p>
+<p><strong>def foo(self): # &#x7C7B;&#x5C5E;&#x6027;foo&#xFF0C;&#x4E5F;&#x662F;&#x65B9;&#x6CD5;</strong></p>
+<p><strong>return \&apos;My Class\&apos;</strong></p>
+<p><strong>print(MyClass.x)</strong></p>
+<p><strong>print(MyClass.foo)</strong></p>
+<p><strong>print(MyClass.__doc__)</strong></p>
+</blockquote>
+<p><strong>&#x7C7B;&#x5BF9;&#x8C61;&#x53CA;&#x7C7B;&#x5C5E;&#x6027;</strong></p>
+<blockquote>
+<p><strong>&#x7C7B;&#x5BF9;&#x8C61;&#xFF0C;&#x7C7B;&#x7684;&#x5B9A;&#x4E49;&#x6267;&#x884C;&#x540E;&#x4F1A;&#x751F;&#x6210;&#x4E00;&#x4E2A;&#x7C7B;&#x5BF9;&#x8C61;</strong></p>
+<p><strong>&#x7C7B;&#x7684;&#x5C5E;&#x6027;&#xFF0C;&#x7C7B;&#x5B9A;&#x4E49;&#x4E2D;&#x7684;&#x53D8;&#x91CF;&#x548C;&#x7C7B;&#x4E2D;&#x5B9A;&#x4E49;&#x7684;&#x65B9;&#x6CD5;&#x90FD;&#x662F;&#x7C7B;&#x7684;&#x5C5E;&#x6027;</strong></p>
+<p><strong>&#x7C7B;&#x53D8;&#x91CF;&#xFF0C;&#x4E0A;&#x4F8B;&#x4E2D;x&#x662F;&#x7C7B;MyClass&#x7684;&#x53D8;&#x91CF;</strong></p>
+</blockquote>
+<p><strong>MyClass&#x4E2D;&#xFF0C;x&#x3001;foo&#x90FD;&#x662F;&#x7C7B;&#x7684;&#x5C5E;&#x6027;&#xFF0C; __doc__ &#x4E5F;&#x662F;&#x7C7B;&#x7684;&#x7279;&#x6B8A;&#x5C5E;&#x6027;</strong></p>
+<p><strong>foo&#x65B9;&#x6CD5;&#x662F;&#x7C7B;&#x7684;&#x5C5E;&#x6027;&#xFF0C;&#x5982;&#x540C;&#x5403;&#x662F;&#x4EBA;&#x7C7B;&#x7684;&#x65B9;&#x6CD5;&#xFF0C;&#x4F46;&#x662F;&#x6BCF;&#x4E00;&#x4E2A;&#x5177;&#x4F53;&#x7684;&#x4EBA;&#x624D;&#x80FD;&#x5403;&#x4E1C;&#x897F;&#xFF0C;&#x4E5F;&#x5C31;&#x662F;&#x8BF4;&#x5403;&#x662F;&#x4EBA;&#x7684;&#x5B9E;&#x4F8B;&#x80FD;&#x8C03;&#x7528;&#x7684;&#x65B9; &#x6CD5;&#x3002;</strong></p>
+<p><strong>foo&#x662F;&#x65B9;&#x6CD5;method&#xFF0C;&#x672C;&#x8D28;&#x4E0A;&#x5C31;&#x662F;&#x666E;&#x901A;&#x7684;&#x51FD;&#x6570;&#x5BF9;&#x8C61;function&#xFF0C;&#x5B83;&#x4E00;&#x822C;&#x8981;&#x6C42;&#x81F3;&#x5C11;&#x6709;&#x4E00;&#x4E2A;&#x53C2;&#x6570;&#x3002;&#x7B2C;&#x4E00;&#x4E2A;&#x5F62;&#x5F0F;&#x53C2;&#x6570;&#x53EF;&#x4EE5;&#x662F; self&#xFF08;self&#x53EA;&#x662F;&#x4E2A;&#x60EF;&#x7528;&#x6807;&#x8BC6;&#x7B26;&#xFF0C;&#x53EF;&#x4EE5;&#x6362;&#x540D;&#x5B57;&#xFF09;&#xFF0C;&#x8FD9;&#x4E2A;&#x53C2;&#x6570;&#x4F4D;&#x7F6E;&#x5C31;&#x7559;&#x7ED9;&#x4E86;self&#x3002;</strong></p>
+<p><strong>self &#x6307;&#x4EE3;&#x5F53;&#x524D;&#x5B9E;&#x4F8B;&#x672C;&#x8EAB;</strong></p>
+<p><strong>&#x95EE;&#x9898;</strong></p>
+<p><strong>&#x4E0A;&#x4F8B;&#x4E2D;&#xFF0C;&#x7C7B;&#x662F;&#x8C01;&#xFF1F;&#x5B9E;&#x4F8B;&#x662F;&#x8C01;&#xFF1F;</strong></p>
+<hr>
+<p><strong>&#x5B9E;&#x4F8B;&#x5316;</strong></p>
+<blockquote>
+<p><strong>a = MyClass() # &#x5B9E;&#x4F8B;&#x5316;</strong></p>
+</blockquote>
+<p><strong>&#x4F7F;&#x7528;&#x4E0A;&#x9762;&#x7684;&#x8BED;&#x6CD5;&#xFF0C;&#x5728;&#x7C7B;&#x5BF9;&#x8C61;&#x540D;&#x79F0;&#x540E;&#x9762;&#x52A0;&#x4E0A;&#x4E00;&#x4E2A;&#x62EC;&#x53F7;&#xFF0C;&#x5C31;&#x8C03;&#x7528;&#x7C7B;&#x7684;&#x5B9E;&#x4F8B;&#x5316;&#x65B9;&#x6CD5;&#xFF0C;&#x5B8C;&#x6210;&#x5B9E;&#x4F8B;&#x5316;&#x3002;</strong></p>
+<p><strong>&#x5B9E;&#x4F8B;&#x5316;&#x5C31;&#x771F;&#x6B63;&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x8BE5;&#x7C7B;&#x7684;&#x5BF9;&#x8C61;&#xFF08;&#x5B9E;&#x4F8B;&#xFF09;&#x3002;&#x4F8B;&#x5982;</strong></p>
+<blockquote>
+<p><strong>tom = Person()</strong></p>
+<p><strong>jerry = Person()</strong></p>
+</blockquote>
+<p><strong>&#x4E0A;&#x9762;&#x7684;tom&#x3001;jerry&#x90FD;&#x662F;Person&#x7C7B;&#x7684;&#x5B9E;&#x4F8B;&#xFF0C;&#x901A;&#x8FC7;&#x5B9E;&#x4F8B;&#x5316;&#x751F;&#x6210;&#x4E86;2&#x4E2A;&#x5B9E;&#x4F8B;&#x3002;</strong></p>
+<p><strong>&#x6BCF;&#x6B21;&#x5B9E;&#x4F8B;&#x5316;&#x540E;&#x83B7;&#x5F97;&#x7684;&#x5B9E;&#x4F8B;&#xFF0C;&#x662F;&#x4E0D;&#x540C;&#x7684;&#x5B9E;&#x4F8B;&#xFF0C;&#x5373;&#x4F7F;&#x662F;&#x4F7F;&#x7528;&#x540C;&#x6837;&#x7684;&#x53C2;&#x6570;&#x5B9E;&#x4F8B;&#x5316;&#xFF0C;&#x4E5F;&#x5F97;&#x5230;&#x4E0D;&#x4E00;&#x6837;&#x7684;&#x5BF9;&#x8C61;&#x3002;</strong></p>
+<blockquote>
+<p><strong>Python&#x7C7B;&#x5B9E;&#x4F8B;&#x5316;&#x540E;&#xFF0C;&#x4F1A;&#x81EA;&#x52A8;&#x8C03;&#x7528; __init__ &#x65B9;&#x6CD5;&#x3002;&#x8FD9;&#x4E2A;&#x65B9;&#x6CD5;&#x7B2C;&#x4E00;&#x4E2A;&#x5F62;&#x5F0F;&#x53C2;&#x6570;&#x5FC5;&#x987B;&#x7559;&#x7ED9;self&#xFF0C;&#x5176;&#x5B83;&#x53C2;&#x6570;&#x968F;&#x610F;&#x3002; __init__&#x65B9;&#x6CD5;</strong></p>
+</blockquote>
+<p><strong>MyClass()&#x5B9E;&#x9645;&#x4E0A;&#x8C03;&#x7528;&#x7684;&#x662F; __init__(self) &#x65B9;&#x6CD5;&#xFF0C;&#x53EF;&#x4EE5;&#x4E0D;&#x5B9A;&#x4E49;&#xFF0C;&#x5982;&#x679C;&#x6CA1;&#x6709;&#x5B9A;&#x4E49;&#x4F1A;&#x5728;&#x5B9E;&#x4F8B;&#x5316;&#x540E;&#x9690;&#x5F0F;&#x8C03;&#x7528;&#x3002;</strong></p>
+<p><strong>&#x4F5C;&#x7528;&#xFF1A;&#x5BF9;&#x5B9E;&#x4F8B;&#x8FDB;&#x884C;&#x521D;&#x59CB;&#x5316;</strong></p>
+<p><img src="media/image4.jpg" alt=""></p>
+<blockquote>
+<p><strong>class MyClass:</strong></p>
+<p><strong>def __init__(self):</strong></p>
+<p><strong>print(\&apos;init\&apos;)</strong></p>
+<p><strong>print(MyClass) # &#x4E0D;&#x4F1A;&#x8C03;&#x7528;</strong></p>
+<p><strong>print(MyClass()) # &#x8C03;&#x7528;__init__</strong></p>
+<p><strong>a = MyClass() # &#x8C03;&#x7528;__init__</strong></p>
+</blockquote>
+<p><strong>&#x521D;&#x59CB;&#x5316;&#x51FD;&#x6570;&#x53EF;&#x4EE5;&#x591A;&#x4E2A;&#x53C2;&#x6570;&#xFF0C;&#x8BF7;&#x6CE8;&#x610F;&#x7B2C;&#x4E00;&#x4E2A;&#x4F4D;&#x7F6E;&#x5FC5;&#x987B;&#x662F;self&#xFF0C;&#x4F8B;&#x5982; __init__(self, name, age)</strong></p>
+<blockquote>
+<p><strong>class Person:</strong></p>
+<p><strong>def __init__(self, name, age):</strong></p>
+<p><strong>self.name = name</strong></p>
+<p><strong>self.age = age</strong></p>
+<p><strong>def showage(self):</strong></p>
+<p><strong>print(\&apos;{} is {}\&apos;.format(self.name, self.age))</strong></p>
+<p><strong>tom = Person(\&apos;Tom\&apos;, 20) # &#x5B9E;&#x4F8B;&#x5316;&#xFF0C;&#x4F1A;&#x8C03;&#x7528;__init__&#x65B9;&#x6CD5;&#x5E76;&#x4E3A;&#x5B9E;&#x4F8B;&#x8FDB;&#x884C;&#x5C5E;&#x6027;&#x7684;&#x521D;&#x59CB;&#x5316;</strong></p>
+<p><strong>jerry = Person(\&apos;Je\&apos;, 25)</strong></p>
+<p><strong>print(tom.name, jerry.age)</strong></p>
+<p><strong>jerry.age += 1</strong></p>
+<p><strong>print(jerry.age)</strong></p>
+<p><strong>jerry.showage()</strong></p>
+</blockquote>
+<p><strong>&#x6CE8;&#x610F;&#xFF1A; __init__() &#x65B9;&#x6CD5;&#x4E0D;&#x80FD;&#x6709;&#x8FD4;&#x56DE;&#x503C;&#xFF0C;&#x4E5F;&#x5C31;&#x662F;&#x53EA;&#x80FD;&#x662F;return None</strong></p>
+<p><strong>&#x5B9E;&#x4F8B;&#x5BF9;&#x8C61;instance</strong></p>
+<p><strong>&#x7C7B;&#x5B9E;&#x4F8B;&#x5316;&#x540E;&#x4E00;&#x5B9A;&#x4F1A;&#x83B7;&#x5F97;&#x4E00;&#x4E2A;&#x7C7B;&#x7684;&#x5B9E;&#x4F8B;&#xFF0C;&#x5C31;&#x662F;&#x5B9E;&#x4F8B;&#x5BF9;&#x8C61;&#x3002;</strong></p>
+<p><strong>&#x4E0A;&#x4F8B;&#x4E2D;&#x7684;tom&#x3001;jerry&#x5C31;&#x662F;Person&#x7C7B;&#x7684;&#x5B9E;&#x4F8B;&#x3002;</strong></p>
+<blockquote>
+<p><strong>__init__ &#x65B9;&#x6CD5;&#x7684;&#x7B2C;&#x4E00;&#x53C2;&#x6570; self &#x5C31;&#x662F;&#x6307;&#x4EE3;&#x67D0;&#x4E00;&#x4E2A;&#x5B9E;&#x4F8B;&#x81EA;&#x8EAB;&#x3002;</strong></p>
+</blockquote>
+<p><strong>&#x7C7B;&#x5B9E;&#x4F8B;&#x5316;&#x540E;&#xFF0C;&#x5F97;&#x5230;&#x4E00;&#x4E2A;&#x5B9E;&#x4F8B;&#x5BF9;&#x8C61;&#xFF0C;&#x8C03;&#x7528;&#x65B9;&#x6CD5;&#x65F6;&#x91C7;&#x7528;jerry.showage()&#x7684;&#x65B9;&#x5F0F;&#xFF0C;&#x5B9E;&#x4F8B;&#x5BF9;&#x8C61;&#x4F1A;&#x7ED1;&#x5B9A;&#x5230;&#x65B9;&#x6CD5;&#x4E0A;&#x3002; &#x4F46;&#x662F;&#x8BE5;&#x51FD;&#x6570;&#x7B7E;&#x540D;&#x662F;showage(self)&#xFF0C;&#x5C11;&#x4F20;&#x4E00;&#x4E2A;&#x5B9E;&#x9645;&#x53C2;&#x6570;self&#x5417;&#xFF1F;</strong></p>
+<p><strong>&#x8FD9;&#x4E2A;self&#x5C31;&#x662F;jerry&#xFF0C;jerry.showage()&#x8C03;&#x7528;&#x65F6;&#xFF0C;&#x4F1A;&#x628A;&#x65B9;&#x6CD5;&#x7684;&#x8C03;&#x7528;&#x8005;jerry&#x5B9E;&#x4F8B;&#x4F5C;&#x4E3A;&#x7B2C;&#x4E00;&#x53C2;&#x6570;self&#x7684;&#x5B9E;&#x53C2;&#x4F20;&#x5165;&#x3002; self.name&#x5C31;&#x662F;jerry&#x5BF9;&#x8C61;&#x7684;name&#xFF0C;name&#x662F;&#x4FDD;&#x5B58;&#x5728;&#x4E86;jerry&#x5BF9;&#x8C61;&#x4E0A;&#xFF0C;&#x800C;&#x4E0D;&#x662F;Person&#x7C7B;&#x4E0A;&#x3002;&#x6240;&#x4EE5;&#xFF0C;&#x79F0;&#x4E3A;&#x5B9E;&#x4F8B;&#x53D8;&#x91CF;&#x3002;</strong></p>
+<hr>
+<p><strong>self</strong></p>
+<blockquote>
+<p><strong>class MyClass:</strong></p>
+<p><strong>def __init__(self):</strong></p>
+<p><strong>print(1, \&apos;self in init = {}\&apos;.format(id(self)))</strong></p>
+<p><strong>def showself(self):</strong></p>
+<p><strong>print(2, \&apos;self in showself() = {}\&apos;.format(id(self)))</strong></p>
+<p><strong>c = MyClass() # &#x4F1A;&#x8C03;&#x7528;__init__</strong></p>
+</blockquote>
+<p><img src="media/image7.jpg" alt=""></p>
+<blockquote>
+<p><strong>print(3, \&apos;c = {}\&apos;.format(id(c)))</strong></p>
+<p><strong>print(\&apos;-\&apos; * 30)</strong></p>
+<p><strong>c.showself()</strong></p>
+<p><strong># &#x6253;&#x5370;&#x7ED3;&#x679C;&#x4E3A;</strong></p>
+<p><strong>1 self in init = 2537636858512</strong></p>
+<p><strong>3 c = 2537636858512</strong></p>
+<p><strong>------------------------------</strong></p>
+<p><strong>2 self in showself() = 2537636858512</strong></p>
+</blockquote>
+<p><strong>&#x4E0A;&#x4F8B;&#x8BF4;&#x660E;&#xFF0C;self&#x5C31;&#x662F;&#x8C03;&#x7528;&#x8005;&#xFF0C;&#x5C31;&#x662F;c&#x5BF9;&#x5E94;&#x7684;&#x5B9E;&#x4F8B;&#x5BF9;&#x8C61;&#x3002;</strong></p>
+<p><strong>self&#x8FD9;&#x4E2A;&#x540D;&#x5B57;&#x53EA;&#x662F;&#x4E00;&#x4E2A;&#x60EF;&#x4F8B;&#xFF0C;&#x5B83;&#x53EF;&#x4EE5;&#x4FEE;&#x6539;&#xFF0C;&#x4F46;&#x662F;&#x8BF7;&#x4E0D;&#x8981;&#x4FEE;&#x6539;&#xFF0C;&#x5426;&#x5219;&#x5F71;&#x54CD;&#x4EE3;&#x7801;&#x7684;&#x53EF;&#x8BFB;&#x6027;</strong></p>
+<p><strong>&#x770B;&#x6253;&#x5370;&#x7684;&#x7ED3;&#x679C;&#xFF0C;&#x601D;&#x8003;&#x4E00;&#x4E0B;&#x6267;&#x884C;&#x7684;&#x987A;&#x5E8F;&#xFF0C;&#x4E3A;&#x4EC0;&#x4E48;&#xFF1F;</strong></p>
+<p><strong>&#x5B9E;&#x4F8B;&#x53D8;&#x91CF;&#x548C;&#x7C7B;&#x53D8;&#x91CF;</strong></p>
+<blockquote>
+<p><strong>class Person:</strong></p>
+<p><strong>age = 3</strong></p>
+<p><strong>def __init__(self, name):</strong></p>
+<p><strong>self.name = name</strong></p>
+<p><strong>#tom = Person(\&apos;Tom\&apos;, 20) #</strong></p>
+<p><strong>tom = Person(\&apos;Tom\&apos;) # &#x5B9E;&#x4F8B;&#x5316;&#x3001;&#x521D;&#x59CB;&#x5316;</strong></p>
+<p><strong>jerry = Person(\&apos;Jerry\&apos;)</strong></p>
+<p><strong>print(tom.name, tom.age)</strong></p>
+<p><strong>print(jerry.name, jerry.age)</strong></p>
+<p><strong>print(Person.age)</strong></p>
+<p><strong>#print(Person.name) #</strong></p>
+<p><strong>Person.age = 30</strong></p>
+<p><strong>print(Person.age, tom.age, jerry.age)</strong></p>
+<p><strong># &#x8FD0;&#x884C;&#x7ED3;&#x679C;</strong></p>
+<p><strong>Tom 3</strong></p>
+<p><strong>Jerry 3</strong></p>
+<p><strong>3</strong></p>
+<p><strong>30 30 30</strong></p>
+</blockquote>
+<p><strong>&#x5B9E;&#x4F8B;&#x53D8;&#x91CF;&#x662F;&#x6BCF;&#x4E00;&#x4E2A;&#x5B9E;&#x4F8B;&#x81EA;&#x5DF1;&#x7684;&#x53D8;&#x91CF;&#xFF0C;&#x662F;&#x81EA;&#x5DF1;&#x72EC;&#x6709;&#x7684;&#xFF1B;&#x7C7B;&#x53D8;&#x91CF;&#x662F;&#x7C7B;&#x7684;&#x53D8;&#x91CF;&#xFF0C;&#x662F;&#x7C7B;&#x7684;&#x6240;&#x6709;&#x5B9E;&#x4F8B;&#x5171;&#x4EAB;&#x7684;&#x5C5E;&#x6027;&#x548C;&#x65B9;&#x6CD5;  </strong></p>
+<p><img src="media/image10.jpg" alt=""></p>
+<blockquote>
+<p><strong>&#x7279;&#x6B8A;&#x5C5E;&#x6027;</strong></p>
+<p><strong>__name__</strong></p>
+<p><strong>__class__</strong></p>
+<p><strong>__dict__</strong></p>
+<p><strong>__qualname__</strong></p>
+</blockquote>
+<p><strong>&#x542B;&#x4E49;</strong></p>
+<p><strong>&#x5BF9;&#x8C61;&#x540D;</strong></p>
+<p><strong>&#x5BF9;&#x8C61;&#x7684;&#x7C7B;&#x578B; &#x5BF9;&#x8C61;&#x7684;&#x5C5E;&#x6027;&#x7684;&#x5B57;&#x5178; &#x7C7B;&#x7684;&#x9650;&#x5B9A;&#x540D;</strong></p>
+<p><strong>&#x6CE8;&#x610F;&#xFF1A;</strong></p>
+<p><strong>Python&#x4E2D;&#x6BCF;&#x4E00;&#x79CD;&#x5BF9;&#x8C61;&#x90FD;&#x62E5;&#x6709;&#x4E0D;&#x540C;&#x7684;&#x5C5E;&#x6027;&#x3002;&#x51FD;&#x6570;&#x3001;&#x7C7B;&#x90FD;&#x662F;&#x5BF9;&#x8C61;&#xFF0C;&#x7C7B;&#x7684;&#x5B9E;&#x4F8B;&#x4E5F;&#x662F;&#x5BF9;&#x8C61;&#x3002;</strong></p>
+<p><strong>&#x4E3E;&#x4F8B;</strong></p>
+<blockquote>
+<p><strong>class Person:</strong></p>
+<p><strong>age = 3</strong></p>
+<p><strong>def __init__(self, name):</strong></p>
+<p><strong>self.name = name</strong></p>
+<p><strong>print(\&apos;----class----\&apos;)</strong></p>
+<p><strong>print(Person.__class__, type(Person))</strong></p>
+<p><strong>print(sorted(Person.__dict__.items()), end=\&apos;\n\n\&apos;) # &#x5C5E;&#x6027;&#x5B57;&#x5178;</strong></p>
+<p><strong>tom = Person(\&apos;Tom\&apos;)</strong></p>
+<p><strong>print(\&apos;----instance tom----\&apos;)</strong></p>
+<p><strong>print(tom.__class__, type(tom))</strong></p>
+<p><strong>print(sorted(tom.__dict__.items()), end=\&apos;\n\n\&apos;)</strong></p>
+<p><strong>print(\&quot;----tom\&apos;s class----\&quot;)</strong></p>
+<p><strong>print(tom.__class__.__name__)</strong></p>
+<p><strong>print(sorted(tom.__class__.__dict__.items()), end=\&apos;\n\n\&apos;) # type(tom).__dict__</strong></p>
+</blockquote>
+<p><strong>&#x4E0A;&#x4F8B;&#x4E2D;&#xFF0C;&#x53EF;&#x4EE5;&#x770B;&#x5230;&#x7C7B;&#x5C5E;&#x6027;&#x4FDD;&#x5B58;&#x5728;&#x7C7B;&#x7684; __dict__ &#x4E2D;&#xFF0C;&#x5B9E;&#x4F8B;&#x5C5E;&#x6027;&#x4FDD;&#x5B58;&#x5728;&#x5B9E;&#x4F8B;&#x7684; __dict__ &#x4E2D;&#xFF0C;&#x5982;&#x679C;&#x4ECE;&#x5B9E;&#x4F8B;&#x8BBF;&#x95EE;&#x7C7B;&#x7684;&#x5C5E; &#x6027;&#xFF0C;&#x4E5F;&#x53EF;&#x4EE5;&#x501F;&#x52A9; __class__ &#x627E;&#x5230;&#x6240;&#x5C5E;&#x7684;&#x7C7B;&#xFF0C;&#x518D;&#x901A;&#x8FC7;&#x7C7B;&#x6765;&#x8BBF;&#x95EE;&#x7C7B;&#x5C5E;&#x6027;&#xFF0C;&#x4F8B;&#x5982; tom.__class__.age &#x3002;</strong></p>
+<p><strong>&#x6709;&#x4E86;&#x4E0A;&#x9762;&#x77E5;&#x8BC6;&#xFF0C;&#x518D;&#x770B;&#x4E0B;&#x9762;&#x7684;&#x4EE3;&#x7801;</strong></p>
+<blockquote>
+<p><strong>class Person:</strong></p>
+<p><strong>age = 3</strong></p>
+<p><strong>height = 170</strong></p>
+<p><strong>def __init__(self, name, age=18):</strong></p>
+<p><strong>self.name = name</strong></p>
+<p><strong>self.age = age</strong></p>
+<p><strong>tom = Person(\&apos;Tom\&apos;) # &#x5B9E;&#x4F8B;&#x5316;&#x3001;&#x521D;&#x59CB;&#x5316;</strong></p>
+<p><strong>jerry = Person(\&apos;Jerry\&apos;, 20)</strong></p>
+<p><strong>Person.age = 30</strong></p>
+<p><strong>print(1, Person.age, tom.age, jerry.age) # &#x8F93;&#x51FA;&#x4EC0;&#x4E48;&#x7ED3;&#x679C;</strong></p>
+</blockquote>
+<p><img src="media/image11.jpg" alt=""></p>
+<blockquote>
+<p><strong>print(2, Person.height, tom.height, jerry.height) # &#x8F93;&#x51FA;&#x4EC0;&#x4E48;&#x7ED3;&#x679C;</strong></p>
+<p><strong>jerry.height = 175</strong></p>
+<p><strong>print(3, Person.height, tom.height, jerry.height) # &#x8F93;&#x51FA;&#x4EC0;&#x4E48;&#x7ED3;&#x679C;</strong></p>
+<p><strong>tom.height += 10</strong></p>
+<p><strong>print(4, Person.height, tom.height, jerry.height) # &#x8F93;&#x51FA;&#x4EC0;&#x4E48;&#x7ED3;&#x679C;</strong></p>
+<p><strong>Person.height += 15</strong></p>
+<p><strong>print(5, Person.height, tom.height, jerry.height) # &#x8F93;&#x51FA;&#x4EC0;&#x4E48;&#x7ED3;&#x679C;</strong></p>
+<p><strong>Person.weight = 70</strong></p>
+<p><strong>print(6, Person.weight, tom.weight, jerry.weight) # &#x8F93;&#x51FA;&#x4EC0;&#x4E48;&#x7ED3;&#x679C;</strong></p>
+<p><strong>print(7, tom.__dict__[\&apos;height\&apos;]) # &#x53EF;&#x4EE5;&#x5417;</strong></p>
+<p><strong>print(8, tom.__dict__[\&apos;weight\&apos;]) # &#x53EF;&#x4EE5;&#x5417;</strong></p>
+</blockquote>
+<p><strong>&#x603B;&#x7ED3;</strong></p>
+<p><strong>&#x662F;&#x7C7B;&#x7684;&#xFF0C;&#x4E5F;&#x662F;&#x8FD9;&#x4E2A;&#x7C7B;&#x6240;&#x6709;&#x5B9E;&#x4F8B;&#x7684;&#xFF0C;&#x5176;&#x5B9E;&#x4F8B;&#x90FD;&#x53EF;&#x4EE5;&#x8BBF;&#x95EE;&#x5230;&#xFF1B;</strong></p>
+<p><strong>&#x662F;&#x5B9E;&#x4F8B;&#x7684;&#xFF0C;&#x5C31;&#x662F;&#x8FD9;&#x4E2A;&#x5B9E;&#x4F8B;&#x81EA;&#x5DF1;&#x7684;&#xFF0C;&#x901A;&#x8FC7;&#x7C7B;&#x8BBF;&#x95EE;&#x4E0D;&#x5230;&#x3002;</strong></p>
+<p><strong>&#x7C7B;&#x53D8;&#x91CF;&#x662F;&#x5C5E;&#x4E8E;&#x7C7B;&#x7684;&#x53D8;&#x91CF;&#xFF0C;&#x8FD9;&#x4E2A;&#x7C7B;&#x7684;&#x6240;&#x6709;&#x5B9E;&#x4F8B;&#x53EF;&#x4EE5;&#x5171;&#x4EAB;&#x8FD9;&#x4E2A;&#x53D8;&#x91CF;&#x3002;</strong></p>
+<p><strong>&#x5BF9;&#x8C61;&#xFF08;&#x5B9E;&#x4F8B;&#x6216;&#x7C7B;&#xFF09;&#x53EF;&#x4EE5;&#x52A8;&#x6001;&#x7684;&#x7ED9;&#x81EA;&#x5DF1;&#x589E;&#x52A0;&#x4E00;&#x4E2A;&#x5C5E;&#x6027;&#xFF08;&#x8D4B;&#x503C;&#x5373;&#x5B9A;&#x4E49;&#x4E00;&#x4E2A;&#x65B0;&#x5C5E;&#x6027;&#xFF09;&#x3002;</strong></p>
+<p><strong>&#x5B9E;&#x4F8B;.__dict__[&#x53D8;&#x91CF;&#x540D;] &#x548C; &#x5B9E;&#x4F8B;.&#x53D8;&#x91CF;&#x540D; &#x90FD;&#x53EF;&#x4EE5;&#x8BBF;&#x95EE;&#x5230;&#x5B9E;&#x4F8B;&#x81EA;&#x5DF1;&#x7684;&#x5C5E;&#x6027;&#xFF08;&#x6CE8;&#x610F;&#x8FD9;&#x4E24;&#x79CD;&#x8BBF;&#x95EE;&#x662F;&#x6709;&#x672C;&#x8D28;&#x533A;&#x522B;&#x7684;&#xFF09;&#x3002; &#x5B9E;&#x4F8B;&#x7684;&#x540C;&#x540D;&#x53D8;&#x91CF;&#x4F1A;&#x9690;&#x85CF;&#x6389;&#x7C7B;&#x53D8;&#x91CF;&#xFF0C;&#x6216;&#x8005;&#x8BF4;&#x662F;&#x8986;&#x76D6;&#x4E86;&#x8FD9;&#x4E2A;&#x7C7B;&#x53D8;&#x91CF;&#x3002;&#x4F46;&#x662F;&#x6CE8;&#x610F;&#x7C7B;&#x53D8;&#x91CF;&#x8FD8;&#x5728;&#x90A3;&#x91CC;&#xFF0C;&#x5E76;&#x6CA1;&#x6709;&#x771F;&#x6B63;&#x88AB;&#x8986;&#x76D6;&#x3002;</strong></p>
+<p><strong>&#x5B9E;&#x4F8B;&#x5C5E;&#x6027;&#x7684;&#x67E5;&#x627E;&#x987A;&#x5E8F;</strong></p>
+<p><strong>&#x6307;&#x7684;&#x662F;&#x5B9E;&#x4F8B;&#x4F7F;&#x7528; .&#x70B9;&#x53F7; &#x6765;&#x8BBF;&#x95EE;&#x5C5E;&#x6027;&#xFF0C;&#x4F1A;&#x5148;&#x627E;&#x81EA;&#x5DF1;&#x7684; __dict__ &#xFF0C;&#x5982;&#x679C;&#x6CA1;&#x6709;&#xFF0C;&#x7136;&#x540E;&#x901A;&#x8FC7;&#x5C5E;&#x6027; __class__ &#x627E;&#x5230;&#x81EA;&#x5DF1;&#x7684; &#x7C7B;&#xFF0C;&#x518D;&#x53BB;&#x7C7B;&#x7684; __dict__ &#x4E2D;&#x627E;</strong></p>
+<p><strong>&#x6CE8;&#x610F;&#xFF1A;&#x5982;&#x679C;&#x5B9E;&#x4F8B;&#x4F7F;&#x7528; __dict__[&#x53D8;&#x91CF;&#x540D;] &#x8BBF;&#x95EE;&#x53D8;&#x91CF;&#xFF0C;&#x5C06;&#x4E0D;&#x4F1A;&#x6309;&#x7167;&#x4E0A;&#x9762;&#x7684;&#x67E5;&#x627E;&#x987A;&#x5E8F;&#x627E;&#x53D8;&#x91CF;&#x4E86;&#xFF0C;&#x8FD9;&#x662F;&#x6307;&#x660E;&#x4F7F;&#x7528;&#x5B57;&#x5178;&#x7684;key &#x67E5;&#x627E;&#xFF0C;&#x4E0D;&#x662F;&#x5C5E;&#x6027;&#x67E5;&#x627E;&#x3002;</strong></p>
+<p><strong>&#x4E00;&#x822C;&#x6765;&#x8BF4;&#xFF0C;&#x7C7B;&#x53D8;&#x91CF;&#x53EF;&#x4F7F;&#x7528;&#x5168;&#x5927;&#x5199;&#x6765;&#x547D;&#x540D;&#x3002;</strong></p>
+<p><strong>&#x88C5;&#x9970;&#x4E00;&#x4E2A;&#x7C7B;</strong></p>
+<p><strong>&#x56DE;&#x987E;&#xFF0C;&#x4EC0;&#x4E48;&#x662F;&#x9AD8;&#x9636;&#x51FD;&#x6570;&#xFF1F;&#x4EC0;&#x4E48;&#x662F;&#x88C5;&#x9970;&#x5668;&#x51FD;&#x6570;&#xFF1F;</strong></p>
+<p><strong>&#x601D;&#x8003;&#xFF0C;&#x5982;&#x4F55;&#x88C5;&#x9970;&#x4E00;&#x4E2A;&#x7C7B;&#xFF1F;</strong></p>
+<p><strong>&#x9700;&#x6C42;&#xFF0C;&#x4E3A;&#x4E00;&#x4E2A;&#x7C7B;&#x901A;&#x8FC7;&#x88C5;&#x9970;&#xFF0C;&#x589E;&#x52A0;&#x4E00;&#x4E9B;&#x7C7B;&#x5C5E;&#x6027;&#x3002;&#x4F8B;&#x5982;&#x80FD;&#x5426;&#x7ED9;&#x4E00;&#x4E2A;&#x7C7B;&#x589E;&#x52A0;&#x4E00;&#x4E2A;NAME&#x7C7B;&#x5C5E;&#x6027;&#x5E76;&#x63D0;&#x4F9B;&#x5C5E;&#x6027;&#x503C;</strong></p>
+<blockquote>
+<p><strong># &#x589E;&#x52A0;&#x7C7B;&#x53D8;&#x91CF;</strong></p>
+<p><strong>def add_name(name, cls):</strong></p>
+<p><strong>cls.NAME = name # &#x52A8;&#x6001;&#x589E;&#x52A0;&#x7C7B;&#x5C5E;&#x6027;</strong></p>
+<p><strong># &#x6539;&#x8FDB;&#x6210;&#x88C5;&#x9970;&#x5668;</strong></p>
+<p><strong>def add_name(name):</strong></p>
+<p><strong>def wrapper(cls):</strong></p>
+<p><strong>cls.NAME = name</strong></p>
+</blockquote>
+<p><img src="media/image16.jpg" alt=""></p>
+<blockquote>
+<p><strong>return cls</strong></p>
+<p><strong>return wrapper</strong></p>
+<p><strong>\@add_name(\&apos;Tom\&apos;)</strong></p>
+<p><strong>class Person:</strong></p>
+<p><strong>AGE = 3</strong></p>
+<p><strong>print(Person.NAME)</strong></p>
+</blockquote>
+<p><strong>&#x4E4B;&#x6240;&#x4EE5;&#x80FD;&#x591F;&#x88C5;&#x9970;&#xFF0C;&#x672C;&#x8D28;&#x4E0A;&#x662F;&#x4E3A;&#x7C7B;&#x5BF9;&#x8C61;&#x52A8;&#x6001;&#x7684;&#x6DFB;&#x52A0;&#x4E86;&#x4E00;&#x4E2A;&#x5C5E;&#x6027;&#xFF0C;&#x800C;Person&#x8FD9;&#x4E2A;&#x6807;&#x8BC6;&#x7B26;&#x6307;&#x5411;&#x8FD9;&#x4E2A;&#x7C7B;&#x5BF9;&#x8C61;&#x3002;</strong></p>
+<p><strong>&#x7C7B;&#x65B9;&#x6CD5;&#x548C;&#x9759;&#x6001;&#x65B9;&#x6CD5;</strong></p>
+<p><strong>&#x524D;&#x9762;&#x7684;&#x4F8B;&#x5B50;&#x4E2D;&#x5B9A;&#x4E49;&#x7684; __init__ &#x7B49;&#x65B9;&#x6CD5;&#xFF0C;&#x8FD9;&#x4E9B;&#x65B9;&#x6CD5;&#x672C;&#x8EAB;&#x90FD;&#x662F;&#x7C7B;&#x7684;&#x5C5E;&#x6027;&#xFF0C;&#x7B2C;&#x4E00;&#x4E2A;&#x53C2;&#x6570;&#x5FC5;&#x987B;&#x662F;self&#xFF0C;&#x800C;self&#x5FC5;&#x987B;&#x6307;&#x5411;&#x4E00;&#x4E2A; &#x5BF9;&#x8C61;&#xFF0C;&#x4E5F;&#x5C31;&#x662F;&#x7C7B;&#x5B9E;&#x4F8B;&#x5316;&#x4E4B;&#x540E;&#xFF0C;&#x7531;&#x5B9E;&#x4F8B;&#x6765;&#x8C03;&#x7528;&#x8FD9;&#x4E2A;&#x65B9;&#x6CD5;&#x3002;</strong></p>
+<p><strong>&#x666E;&#x901A;&#x51FD;&#x6570;</strong></p>
+<blockquote>
+<p><strong>class Person:</strong></p>
+<p><strong>def normal_method(): # &#x53EF;&#x4EE5;&#x5417;&#xFF1F;</strong></p>
+<p><strong>print(\&apos;normal\&apos;)</strong></p>
+<p><strong># &#x5982;&#x4F55;&#x8C03;&#x7528;</strong></p>
+<p><strong>Person.normal_method() # &#x53EF;&#x4EE5;&#x5417;&#xFF1F;</strong></p>
+<p><strong>Person().normal_method() # &#x53EF;&#x4EE5;&#x5417;&#xFF1F;</strong></p>
+<p><strong>print(Person.__dict__)</strong></p>
+</blockquote>
+<p><strong>Person.normal_method()</strong></p>
+<p><strong>&#x53EF;&#x4EE5;&#x653E;&#x5728;&#x7C7B;&#x4E2D;&#x5B9A;&#x4E49;&#xFF0C;&#x56E0;&#x4E3A;&#x8FD9;&#x4E2A;&#x65B9;&#x6CD5;&#x53EA;&#x662F;&#x88AB;Person&#x8FD9;&#x4E2A;&#x540D;&#x8BCD;&#x7A7A;&#x95F4;&#x7BA1;&#x7406;&#x7684;&#x4E00;&#x4E2A;&#x666E;&#x901A;&#x7684;&#x65B9;&#x6CD5;&#xFF0C;normal_method&#x662F;Person &#x7684;&#x4E00;&#x4E2A;&#x5C5E;&#x6027;&#x800C;&#x5DF2;&#x3002;</strong></p>
+<p><strong>&#x7531;&#x4E8E;normal_method&#x5728;&#x5B9A;&#x4E49;&#x7684;&#x65F6;&#x5019;&#x6CA1;&#x6709;&#x6307;&#x5B9A;self&#xFF0C;&#x6240;&#x4EE5;&#x4E0D;&#x80FD;&#x5B8C;&#x6210;&#x5B9E;&#x4F8B;&#x5BF9;&#x8C61;&#x7684;&#x7ED1;&#x5B9A;&#xFF0C;&#x4E0D;&#x80FD;&#x7528; Person().normal_method()&#x8C03;&#x7528;&#x3002;</strong></p>
+<p><strong>&#x6CE8;&#x610F;&#xFF1A;&#x867D;&#x7136;&#x8BED;&#x6CD5;&#x662F;&#x5BF9;&#x7684;&#xFF0C;&#x4F46;&#x662F;&#xFF0C;&#x6CA1;&#x6709;&#x4EBA;&#x8FD9;&#x4E48;&#x7528;&#xFF0C;&#x4E5F;&#x5C31;&#x662F;&#x8BF4;&#x7981;&#x6B62;&#x8FD9;&#x4E48;&#x5199;</strong></p>
+<p><strong>&#x7C7B;&#x65B9;&#x6CD5;</strong></p>
+<blockquote>
+<p><strong>class Person:</strong></p>
+<p><strong>\@classmethod</strong></p>
+<p><strong>def class_method(cls): # cls&#x662F;&#x4EC0;&#x4E48;</strong></p>
+<p><strong>print(\&apos;class = {0.__name__} ({0})\&apos;.format(cls))</strong></p>
+<p><strong>cls.HEIGHT = 170</strong></p>
+<p><strong>Person.class_method()</strong></p>
+<p><strong>print(Person.__dict__)</strong></p>
+</blockquote>
+<p><strong>&#x7C7B;&#x65B9;&#x6CD5;</strong></p>
+<blockquote>
+<p><strong>1. &#x5728;&#x7C7B;&#x5B9A;&#x4E49;&#x4E2D;&#xFF0C;&#x4F7F;&#x7528;\@classmethod&#x88C5;&#x9970;&#x5668;&#x4FEE;&#x9970;&#x7684;&#x65B9;&#x6CD5;</strong></p>
+</blockquote>
+<p><img src="media/image19.jpg" alt=""></p>
+<blockquote>
+<p><strong>2. &#x5FC5;&#x987B;&#x81F3;&#x5C11;&#x6709;&#x4E00;&#x4E2A;&#x53C2;&#x6570;&#xFF0C;&#x4E14;&#x7B2C;&#x4E00;&#x4E2A;&#x53C2;&#x6570;&#x7559;&#x7ED9;&#x4E86;cls&#xFF0C;cls&#x6307;&#x4EE3;&#x8C03;&#x7528;&#x8005;&#x5373;&#x7C7B;&#x5BF9;&#x8C61;&#x81EA;&#x8EAB;</strong></p>
+<p><strong>3. cls&#x8FD9;&#x4E2A;&#x6807;&#x8BC6;&#x7B26;&#x53EF;&#x4EE5;&#x662F;&#x4EFB;&#x610F;&#x5408;&#x6CD5;&#x540D;&#x79F0;&#xFF0C;&#x4F46;&#x662F;&#x4E3A;&#x4E86;&#x6613;&#x8BFB;&#xFF0C;&#x8BF7;&#x4E0D;&#x8981;&#x4FEE;&#x6539;</strong></p>
+<p><strong>4. &#x901A;&#x8FC7;cls&#x53EF;&#x4EE5;&#x76F4;&#x63A5;&#x64CD;&#x4F5C;&#x7C7B;&#x7684;&#x5C5E;&#x6027;</strong></p>
+<p><strong>&#x6CE8;&#x610F;&#xFF1A;&#x65E0;&#x6CD5;&#x901A;&#x8FC7;cls&#x64CD;&#x4F5C;&#x7C7B;&#x7684;&#x5B9E;&#x4F8B;&#x3002;&#x4E3A;&#x4EC0;&#x4E48;&#xFF1F;</strong></p>
+</blockquote>
+<p><strong>&#x7C7B;&#x65B9;&#x6CD5;&#xFF0C;&#x7C7B;&#x4F3C;&#x4E8E;C++&#x3001;Java&#x4E2D;&#x7684;&#x9759;&#x6001;&#x65B9;&#x6CD5;</strong></p>
+<p><strong>&#x9759;&#x6001;&#x65B9;&#x6CD5;</strong></p>
+<blockquote>
+<p><strong>class Person:</strong></p>
+<p><strong>\@classmethod</strong></p>
+<p><strong>def class_method(cls): # cls&#x662F;&#x4EC0;&#x4E48;</strong></p>
+<p><strong>print(\&apos;class = {0.__name__} ({0})\&apos;.format(cls))</strong></p>
+<p><strong>cls.HEIGHT = 170</strong></p>
+<p><strong>\@staticmethod</strong></p>
+<p><strong>def static_methd():</strong></p>
+<p><strong>print(Person.HEIGHT)</strong></p>
+<p><strong>Person.class_method()</strong></p>
+<p><strong>Person.static_methd()</strong></p>
+<p><strong>print(Person.__dict__)</strong></p>
+</blockquote>
+<p><strong>&#x9759;&#x6001;&#x65B9;&#x6CD5;</strong></p>
+<blockquote>
+<p><strong>1. &#x5728;&#x7C7B;&#x5B9A;&#x4E49;&#x4E2D;&#xFF0C;&#x4F7F;&#x7528;\@staticmethod&#x88C5;&#x9970;&#x5668;&#x4FEE;&#x9970;&#x7684;&#x65B9;&#x6CD5;</strong></p>
+<p><strong>2. &#x8C03;&#x7528;&#x65F6;&#xFF0C;&#x4E0D;&#x4F1A;&#x9690;&#x5F0F;&#x7684;&#x4F20;&#x5165;&#x53C2;&#x6570;</strong></p>
+</blockquote>
+<p><strong>&#x9759;&#x6001;&#x65B9;&#x6CD5;&#xFF0C;&#x53EA;&#x662F;&#x8868;&#x660E;&#x8FD9;&#x4E2A;&#x65B9;&#x6CD5;&#x5C5E;&#x4E8E;&#x8FD9;&#x4E2A;&#x540D;&#x8BCD;&#x7A7A;&#x95F4;&#x3002;&#x51FD;&#x6570;&#x5F52;&#x5728;&#x4E00;&#x8D77;&#xFF0C;&#x65B9;&#x4FBF;&#x7EC4;&#x7EC7;&#x7BA1;&#x7406;&#x3002; &#x65B9;&#x6CD5;&#x7684;&#x8C03;&#x7528;</strong></p>
+<p><strong>&#x7C7B;&#x53EF;&#x4EE5;&#x5B9A;&#x4E49;&#x8FD9;&#x4E48;&#x591A;&#x79CD;&#x65B9;&#x6CD5;&#xFF0C;&#x7A76;&#x7ADF;&#x5982;&#x4F55;&#x8C03;&#x7528;&#x5B83;&#x4EEC;&#xFF1F;</strong></p>
+<blockquote>
+<p><strong>class Person:</strong></p>
+<p><strong>def method(self):</strong></p>
+<p><strong>print(\&quot;{}\&apos;s method\&quot;.format(self))</strong></p>
+<p><strong>\@classmethod</strong></p>
+<p><strong>def class_method(cls): # cls&#x662F;&#x4EC0;&#x4E48;</strong></p>
+<p><strong>print(\&apos;class = {0.__name__} ({0})\&apos;.format(cls))</strong></p>
+<p><strong>cls.HEIGHT = 170</strong></p>
+<p><strong>\@staticmethod</strong></p>
+<p><strong>def static_methd():</strong></p>
+<p><strong>print(Person.HEIGHT)</strong></p>
+<p><strong>print(\&apos;~~~~&#x7C7B;&#x8BBF;&#x95EE;\&apos;)</strong></p>
+<p><strong>print(1, Person.method()) # &#x53EF;&#x4EE5;&#x5417;</strong></p>
+<p><strong>print(2, Person.class_method()) # &#x53EF;&#x4EE5;&#x5417;</strong></p>
+<p><strong>print(3, Person.static_methd()) # &#x53EF;&#x4EE5;&#x5417;</strong></p>
+</blockquote>
+<p><img src="media/image22.jpg" alt=""></p>
+<blockquote>
+<p><strong>print(Person.__dict__)</strong></p>
+<p><strong>print(\&apos;~~~~&#x5B9E;&#x4F8B;&#x8BBF;&#x95EE;\&apos;)</strong></p>
+<p><strong>print(\&apos;tom----\&apos;)</strong></p>
+<p><strong>tom = Person()</strong></p>
+<p><strong>print(4, tom.method()) # &#x53EF;&#x4EE5;&#x5417;</strong></p>
+<p><strong>print(5, tom.class_method()) # &#x53EF;&#x4EE5;&#x5417;&#xFF1F;</strong></p>
+<p><strong>print(6, tom.static_methd()) # &#x53EF;&#x4EE5;&#x5417;</strong></p>
+<p><strong>print(\&apos;jerry----\&apos;)</strong></p>
+<p><strong>jerry = Person()</strong></p>
+<p><strong>print(7, jerry.method()) # &#x53EF;&#x4EE5;&#x5417;</strong></p>
+<p><strong>print(8, jerry.class_method()) # &#x53EF;&#x4EE5;&#x5417;&#xFF1F;</strong></p>
+<p><strong>print(9, jerry.static_methd()) # &#x53EF;&#x4EE5;&#x5417;</strong></p>
+</blockquote>
+<p><strong>&#x7C7B;&#x51E0;&#x4E4E;&#x53EF;&#x4EE5;&#x8C03;&#x7528;&#x6240;&#x6709;&#x5185;&#x90E8;&#x5B9A;&#x4E49;&#x7684;&#x65B9;&#x6CD5;&#xFF0C;&#x4F46;&#x662F;&#x8C03;&#x7528; &#x666E;&#x901A;&#x7684;&#x65B9;&#x6CD5; &#x65F6;&#x4F1A;&#x62A5;&#x9519;&#xFF0C;&#x539F;&#x56E0;&#x662F;&#x7B2C;&#x4E00;&#x53C2;&#x6570;&#x5FC5;&#x987B;&#x662F;&#x7C7B;&#x7684;&#x5B9E;&#x4F8B;&#x3002; &#x5B9E;&#x4F8B;&#x4E5F;&#x51E0;&#x4E4E;&#x53EF;&#x4EE5;&#x8C03;&#x7528;&#x6240;&#x6709;&#x7684;&#x65B9;&#x6CD5;&#xFF0C; &#x666E;&#x901A;&#x7684;&#x51FD;&#x6570; &#x7684;&#x8C03;&#x7528;&#x4E00;&#x822C;&#x4E0D;&#x53EF;&#x80FD;&#x51FA;&#x73B0;&#xFF0C;&#x56E0;&#x4E3A;&#x4E0D;&#x5141;&#x8BB8;&#x8FD9;&#x4E48;&#x5B9A;&#x4E49;&#x3002;</strong></p>
+<p><strong>&#x603B;&#x7ED3;&#xFF1A;</strong></p>
+<p><strong>&#x7C7B;&#x9664;&#x4E86;&#x666E;&#x901A;&#x65B9;&#x6CD5;&#x90FD;&#x53EF;&#x4EE5;&#x8C03;&#x7528;&#xFF0C;&#x666E;&#x901A;&#x65B9;&#x6CD5;&#x9700;&#x8981;&#x5BF9;&#x8C61;&#x7684;&#x5B9E;&#x4F8B;&#x4F5C;&#x4E3A;&#x7B2C;&#x4E00;&#x53C2;&#x6570;&#x3002;</strong></p>
+<p><strong>&#x5B9E;&#x4F8B;&#x53EF;&#x4EE5;&#x8C03;&#x7528;&#x6240;&#x6709;&#x7C7B;&#x4E2D;&#x5B9A;&#x4E49;&#x7684;&#x65B9;&#x6CD5;&#xFF08;&#x5305;&#x62EC;&#x7C7B;&#x65B9;&#x6CD5;&#x3001;&#x9759;&#x6001;&#x65B9;&#x6CD5;&#xFF09;&#xFF0C;&#x666E;&#x901A;&#x65B9;&#x6CD5;&#x4F20;&#x5165;&#x5B9E;&#x4F8B;&#x81EA;&#x8EAB;&#xFF0C;&#x9759;&#x6001;&#x65B9;&#x6CD5;&#x548C;&#x7C7B;&#x65B9;&#x6CD5;&#x9700;&#x8981;&#x627E; &#x5230;&#x5B9E;&#x4F8B;&#x7684;&#x7C7B;&#x3002;</strong></p>
+<hr>
+<p><strong>&#x8865;&#x5145;&#xFF1A;</strong></p>
+<blockquote>
+<p><strong>class Person:</strong></p>
+<p><strong>def method(self):</strong></p>
+<p><strong>print(\&quot;{}\&apos;s method\&quot;.format(self))</strong></p>
+<p><strong>tom = Person()</strong></p>
+<p><strong>tom.method() # &#x53EF;&#x4EE5;&#x5417;</strong></p>
+<p><strong>Person.method() # &#x53EF;&#x4EE5;&#x5417;</strong></p>
+<p><strong>Person.method(tom) # &#x53EF;&#x4EE5;&#x5417;</strong></p>
+<p><strong>tom.__class__.method(tom) # &#x53EF;&#x4EE5;&#x5417;</strong></p>
+</blockquote>
+<p><strong>tom.method()&#x8C03;&#x7528;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x4F1A;&#x7ED1;&#x5B9A;&#x5B9E;&#x4F8B;&#xFF0C;&#x8C03;&#x7528;method&#x65B9;&#x6CD5;&#x65F6;&#xFF0C;&#x5B9E;&#x4F8B;tom&#x4F1A;&#x6CE8;&#x5165;&#x5230;method&#x4E2D;&#xFF0C;&#x8FD9;&#x6837;&#x7B2C;&#x4E00;&#x53C2;&#x6570;&#x5C31;&#x6EE1; &#x8DB3;&#x4E86;&#x3002;</strong></p>
+<p><strong>Person.method()&#xFF0C;&#x4F7F;&#x7528;&#x7C7B;&#x8C03;&#x7528;&#xFF0C;&#x4E0D;&#x4F1A;&#x6709;&#x5B9E;&#x4F8B;&#x7ED1;&#x5B9A;&#xFF0C;&#x8C03;&#x7528;method&#x65B9;&#x6CD5;&#x65F6;&#xFF0C;&#x5C31;&#x7F3A;&#x5C11;&#x4E86;&#x7B2C;&#x4E00;&#x53C2;&#x6570;&#xFF0C;&#x53EF;&#x4EE5;&#x624B;&#x52A8;&#x7684;&#x586B;&#x5165;&#x3002;  </strong></p>
+<p><strong>&#x8BBF;&#x95EE;&#x63A7;&#x5236;</strong></p>
+<p><strong>&#x79C1;&#x6709;&#xFF08;Private&#xFF09;&#x5C5E;&#x6027;</strong></p>
+<p><img src="media/image25.jpg" alt=""></p>
+<blockquote>
+<p><strong>class Person:</strong></p>
+<p><strong>def __init__(self, name, age=18):</strong></p>
+<p><strong>self.name = name</strong></p>
+<p><strong>self.age = age</strong></p>
+<p><strong>def growup(self, i=1):</strong></p>
+<p><strong>if i &gt; 0 and i \&lt; 150: # &#x63A7;&#x5236;&#x903B;&#x8F91;</strong></p>
+<p><strong>self.age += i</strong></p>
+<p><strong>p1 = Person(\&apos;tom\&apos;)</strong></p>
+<p><strong>p1.growup(20) # &#x6B63;&#x5E38;&#x7684;&#x8303;&#x56F4;</strong></p>
+<p><strong>p1.age = 160 # &#x8D85;&#x8FC7;&#x4E86;&#x8303;&#x56F4;&#xFF0C;&#x5E76;&#x7ED5;&#x8FC7;&#x4E86;&#x63A7;&#x5236;&#x903B;&#x8F91;</strong></p>
+<p><strong>print(p1.age)</strong></p>
+</blockquote>
+<p><strong>&#x4E0A;&#x4F8B;&#xFF0C;&#x672C;&#x6765;&#x662F;&#x60F3;&#x901A;&#x8FC7;&#x65B9;&#x6CD5;&#x63A7;&#x5236;&#x5C5E;&#x6027;&#xFF0C;&#x4F46;&#x662F;&#x7531;&#x4E8E;&#x5C5E;&#x6027;&#x5728;&#x5916;&#x90E8;&#x53EF;&#x4EE5;&#x8BBF;&#x95EE;&#xFF0C;&#x6216;&#x8005;&#x8BF4;&#x53EF;&#x89C1;&#xFF0C;&#x5C31;&#x53EF;&#x4EE5;&#x76F4;&#x63A5;&#x7ED5;&#x8FC7;&#x65B9;&#x6CD5;&#xFF0C;&#x76F4;&#x63A5;&#x4FEE;&#x6539; &#x8FD9;&#x4E2A;&#x5C5E;&#x6027;&#x3002;</strong></p>
+<p><strong>Python&#x63D0;&#x4F9B;&#x4E86;&#x79C1;&#x6709;&#x5C5E;&#x6027;&#x53EF;&#x4EE5;&#x89E3;&#x51B3;&#x8FD9;&#x4E2A;&#x95EE;&#x9898;&#x3002;</strong></p>
+<p><strong>&#x79C1;&#x6709;&#x5C5E;&#x6027;</strong></p>
+<p><strong>&#x4F7F;&#x7528;&#x53CC;&#x4E0B;&#x5212;&#x7EBF;&#x5F00;&#x5934;&#x7684;&#x5C5E;&#x6027;&#x540D;&#xFF0C;&#x5C31;&#x662F;&#x79C1;&#x6709;&#x5C5E;&#x6027;</strong></p>
+<blockquote>
+<p><strong>class Person:</strong></p>
+<p><strong>def __init__(self, name, age=18):</strong></p>
+<p><strong>self.name = name</strong></p>
+<p><strong>self.__age = age</strong></p>
+<p><strong>def growup(self, i=1):</strong></p>
+<p><strong>if i &gt; 0 and i \&lt; 150: # &#x63A7;&#x5236;&#x903B;&#x8F91;</strong></p>
+<p><strong>self.__age += i</strong></p>
+<p><strong>p1 = Person(\&apos;tom\&apos;)</strong></p>
+<p><strong>p1.growup(20) # &#x6B63;&#x5E38;&#x7684;&#x8303;&#x56F4;</strong></p>
+<p><strong>print(p1.__age) # &#x53EF;&#x4EE5;&#x5417;</strong></p>
+</blockquote>
+<p><strong>&#x901A;&#x8FC7;&#x5B9E;&#x9A8C;&#x53EF;&#x4EE5;&#x770B;&#x51FA;&#xFF0C;&#x5916;&#x90E8;&#x5DF2;&#x7ECF;&#x8BBF;&#x95EE;&#x4E0D;&#x5230; __age &#x4E86;&#xFF0C;age&#x6839;&#x672C;&#x5C31;&#x6CA1;&#x6709;&#x5B9A;&#x4E49;&#xFF0C;&#x66F4;&#x662F;&#x8BBF;&#x95EE;&#x4E0D;&#x5230;&#x3002;</strong></p>
+<p><strong>&#x90A3;&#x4E48;&#xFF0C;&#x5982;&#x4F55;&#x8BBF;&#x95EE;&#x8FD9;&#x4E2A;&#x79C1;&#x6709;&#x53D8;&#x91CF; __age &#x5462;&#xFF1F;</strong></p>
+<p><strong>&#x4F7F;&#x7528;&#x65B9;&#x6CD5;&#x6765;&#x8BBF;&#x95EE;</strong></p>
+<p><img src="media/image26.jpg" alt=""></p>
+<blockquote>
+<p><strong>class Person:</strong></p>
+<p><strong>def __init__(self, name, age=18):</strong></p>
+<p><strong>self.name = name</strong></p>
+<p><strong>self.__age = age</strong></p>
+<p><strong>def growup(self, i=1):</strong></p>
+<p><strong>if i &gt; 0 and i \&lt; 150: # &#x63A7;&#x5236;&#x903B;&#x8F91;</strong></p>
+<p><strong>self.__age += i</strong></p>
+<p><strong>def getage(self):</strong></p>
+<p><strong>return self.__age</strong></p>
+<p><strong>print(Person(\&apos;tom\&apos;).getage())</strong></p>
+</blockquote>
+<p><strong>&#x79C1;&#x6709;&#x53D8;&#x91CF;&#x7684;&#x672C;&#x8D28;</strong></p>
+<p><strong>&#x5916;&#x90E8;&#x8BBF;&#x95EE;&#x4E0D;&#x5230;&#xFF0C;&#x80FD;&#x591F;&#x52A8;&#x6001;&#x589E;&#x52A0;&#x4E00;&#x4E2A; __age &#x5417;&#xFF1F;</strong></p>
+<blockquote>
+<p><strong>class Person:</strong></p>
+<p><strong>def __init__(self, name, age=18):</strong></p>
+<p><strong>self.name = name</strong></p>
+<p><strong>self.__age = age</strong></p>
+<p><strong>def growup(self, i=1):</strong></p>
+<p><strong>if i &gt; 0 and i \&lt; 150: # &#x63A7;&#x5236;&#x903B;&#x8F91;</strong></p>
+<p><strong>self.__age += i</strong></p>
+<p><strong>def getage(self):</strong></p>
+<p><strong>return self.__age</strong></p>
+<p><strong>p1 = Person(\&apos;tom\&apos;)</strong></p>
+<p><strong>p1.growup(20) # &#x6B63;&#x5E38;&#x7684;&#x8303;&#x56F4;</strong></p>
+<p><strong>#print(p1.__age) # &#x8BBF;&#x95EE;&#x4E0D;&#x5230;</strong></p>
+<p><strong>p1.__age = 28</strong></p>
+<p><strong>print(p1.__age)</strong></p>
+<p><strong>print(p1.getage())</strong></p>
+<p><strong># &#x4E3A;&#x4EC0;&#x4E48;&#x5E74;&#x9F84;&#x4E0D;&#x4E00;&#x6837;&#xFF1F;__age&#x6CA1;&#x6709;&#x8986;&#x76D6;&#x5417;&#xFF1F;</strong></p>
+<p><strong>print(p1.__dict__)</strong></p>
+</blockquote>
+<p><strong>&#x79D8;&#x5BC6;&#x90FD;&#x5728; __dict__ &#x4E2D;&#xFF0C;&#x91CC;&#x9762;&#x662F;{\&apos;__age\&apos;: 28, \&apos;_Person__age\&apos;: 38, \&apos;name\&apos;: \&apos;tom\&apos;}</strong></p>
+<p><strong>&#x79C1;&#x6709;&#x53D8;&#x91CF;&#x7684;&#x672C;&#x8D28;&#xFF1A;</strong></p>
+<p><strong>&#x7C7B;&#x5B9A;&#x4E49;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x5982;&#x679C;&#x58F0;&#x660E;&#x4E00;&#x4E2A;&#x5B9E;&#x4F8B;&#x53D8;&#x91CF;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x4F7F;&#x7528;&#x53CC;&#x4E0B;&#x5212;&#x7EBF;&#xFF0C;Python&#x89E3;&#x91CA;&#x5668;&#x4F1A;&#x5C06;&#x5176;&#x6539;&#x540D;&#xFF0C;&#x8F6C;&#x6362;&#x540D;&#x79F0;&#x4E3A; _&#x7C7B;&#x540D;__&#x53D8; &#x91CF;&#x540D; &#x7684;&#x540D;&#x79F0;&#xFF0C;&#x6240;&#x4EE5;&#x7528;&#x539F;&#x6765;&#x7684;&#x540D;&#x5B57;&#x8BBF;&#x95EE;&#x4E0D;&#x5230;&#x4E86;&#x3002;</strong></p>
+<p><strong>&#x77E5;&#x9053;&#x4E86;&#x8FD9;&#x4E2A;&#x540D;&#x5B57;&#xFF0C;&#x80FD;&#x5426;&#x76F4;&#x63A5;&#x4FEE;&#x6539;&#x5462;&#xFF1F;</strong></p>
+<blockquote>
+<p><strong>class Person:</strong></p>
+<p><strong>def __init__(self, name, age=18):</strong></p>
+<p><strong>self.name = name</strong></p>
+<p><strong>self.__age = age</strong></p>
+</blockquote>
+<p><img src="media/image29.jpg" alt=""></p>
+<blockquote>
+<p><strong>def growup(self, i=1):</strong></p>
+<p><strong>if i &gt; 0 and i \&lt; 150: # &#x63A7;&#x5236;&#x903B;&#x8F91;</strong></p>
+<p><strong>self.__age += i</strong></p>
+<p><strong>def getage(self):</strong></p>
+<p><strong>return self.__age</strong></p>
+<p><strong>p1 = Person(\&apos;tom\&apos;)</strong></p>
+<p><strong>p1.growup(20) # &#x6B63;&#x5E38;&#x7684;&#x8303;&#x56F4;</strong></p>
+<p><strong>#print(p1.__age) # &#x8BBF;&#x95EE;&#x4E0D;&#x5230;</strong></p>
+<p><strong>p1.__age = 28</strong></p>
+<p><strong>print(p1.__age)</strong></p>
+<p><strong>print(p1.getage())</strong></p>
+<p><strong># &#x4E3A;&#x4EC0;&#x4E48;&#x5E74;&#x9F84;&#x4E0D;&#x4E00;&#x6837;&#xFF1F;__age&#x6CA1;&#x6709;&#x8986;&#x76D6;&#x5417;&#xFF1F;</strong></p>
+<p><strong>print(p1.__dict__)</strong></p>
+<p><strong># &#x76F4;&#x63A5;&#x4FEE;&#x6539;&#x79C1;&#x6709;&#x53D8;&#x91CF;</strong></p>
+<p><strong>p1._Person__age = 15</strong></p>
+<p><strong>print(p1.getage())</strong></p>
+<p><strong>print(p1.__dict__)</strong></p>
+</blockquote>
+<p><strong>&#x4ECE;&#x4E0A;&#x4F8B;&#x53EF;&#x4EE5;&#x770B;&#x51FA;&#xFF0C;&#x77E5;&#x9053;&#x4E86;&#x79C1;&#x6709;&#x53D8;&#x91CF;&#x7684;&#x65B0;&#x540D;&#x79F0;&#xFF0C;&#x5C31;&#x53EF;&#x4EE5;&#x76F4;&#x63A5;&#x4ECE;&#x5916;&#x90E8;&#x8BBF;&#x95EE;&#x5230;&#xFF0C;&#x5E76;&#x53EF;&#x4EE5;&#x4FEE;&#x6539;&#x5B83;&#x3002; &#x4FDD;&#x62A4;&#x53D8;&#x91CF;</strong></p>
+<p><strong>&#x5728;&#x53D8;&#x91CF;&#x540D;&#x524D;&#x4F7F;&#x7528;&#x4E00;&#x4E2A;&#x4E0B;&#x5212;&#x7EBF;&#xFF0C;&#x79F0;&#x4E3A;&#x4FDD;&#x62A4;&#x53D8;&#x91CF;&#x3002;</strong></p>
+<blockquote>
+<p><strong>class Person:</strong></p>
+<p><strong>def __init__(self, name, age=18):</strong></p>
+<p><strong>self.name = name</strong></p>
+<p><strong>self._age = age</strong></p>
+<p><strong>tom = Person(\&apos;Tom\&apos;)</strong></p>
+<p><strong>print(tom._age)</strong></p>
+<p><strong>print(tom.__dict__)</strong></p>
+</blockquote>
+<p><strong>&#x53EF;&#x4EE5;&#x770B;&#x51FA;&#xFF0C;&#x8FD9;&#x4E2A;_age&#x5C5E;&#x6027;&#x6839;&#x672C;&#x5C31;&#x6CA1;&#x6709;&#x6539;&#x53D8;&#x540D;&#x79F0;&#xFF0C;&#x548C;&#x666E;&#x901A;&#x7684;&#x5C5E;&#x6027;&#x4E00;&#x6837;&#xFF0C;&#x89E3;&#x91CA;&#x5668;&#x4E0D;&#x505A;&#x4EFB;&#x4F55;&#x7279;&#x6B8A;&#x5904;&#x7406;&#x3002; &#x8FD9;&#x53EA;&#x662F;&#x5F00;&#x53D1;&#x8005;&#x5171;&#x540C;&#x7684;&#x7EA6;&#x5B9A;&#xFF0C;&#x770B;&#x89C1;&#x8FD9;&#x79CD;&#x53D8;&#x91CF;&#xFF0C;&#x5C31;&#x5982;&#x540C;&#x79C1;&#x6709;&#x53D8;&#x91CF;&#xFF0C;&#x4E0D;&#x8981;&#x76F4;&#x63A5;&#x4F7F;&#x7528;&#x3002;</strong></p>
+<p><strong>&#x79C1;&#x6709;&#x65B9;&#x6CD5;</strong></p>
+<p><strong>&#x53C2;&#x7167;&#x4FDD;&#x62A4;&#x53D8;&#x91CF;&#x3001;&#x79C1;&#x6709;&#x53D8;&#x91CF;&#xFF0C;&#x4F7F;&#x7528;&#x5355;&#x4E0B;&#x5212;&#x7EBF;&#x3001;&#x53CC;&#x4E0B;&#x5212;&#x7EBF;&#x547D;&#x540D;&#x65B9;&#x6CD5;&#x3002;</strong></p>
+<blockquote>
+<p><strong>class Person:</strong></p>
+<p><strong>def __init__(self, name, age=18):</strong></p>
+<p><strong>self.name = name</strong></p>
+<p><strong>self._age = age</strong></p>
+<p><strong>def _getname(self):</strong></p>
+</blockquote>
+<p><img src="media/image34.jpg" alt=""></p>
+<blockquote>
+<p><strong>return self.name</strong></p>
+<p><strong>def __getage(self):</strong></p>
+<p><strong>return self._age</strong></p>
+<p><strong>tom = Person(\&apos;Tom\&apos;)</strong></p>
+<p><strong>print(tom._getname()) # &#x6CA1;&#x6539;&#x540D;</strong></p>
+<p><strong>print(tom.__getage()) # &#x65E0;&#x6B64;&#x5C5E;&#x6027;</strong></p>
+<p><strong>print(tom.__dict__)</strong></p>
+<p><strong>print(tom.__class__.__dict__)</strong></p>
+<p><strong>print(tom._Person__getage()) # &#x6539;&#x540D;&#x4E86;</strong></p>
+</blockquote>
+<p><strong>&#x79C1;&#x6709;&#x65B9;&#x6CD5;&#x7684;&#x672C;&#x8D28;</strong></p>
+<p><strong>&#x5355;&#x4E0B;&#x5212;&#x7EBF;&#x7684;&#x65B9;&#x6CD5;&#x53EA;&#x662F;&#x5F00;&#x53D1;&#x8005;&#x4E4B;&#x95F4;&#x7684;&#x7EA6;&#x5B9A;&#xFF0C;&#x89E3;&#x91CA;&#x5668;&#x4E0D;&#x505A;&#x4EFB;&#x4F55;&#x6539;&#x53D8;&#x3002;</strong></p>
+<p><strong>&#x53CC;&#x4E0B;&#x5212;&#x7EBF;&#x7684;&#x65B9;&#x6CD5;&#xFF0C;&#x662F;&#x79C1;&#x6709;&#x65B9;&#x6CD5;&#xFF0C;&#x89E3;&#x91CA;&#x5668;&#x4F1A;&#x6539;&#x540D;&#xFF0C;&#x6539;&#x540D;&#x7B56;&#x7565;&#x548C;&#x79C1;&#x6709;&#x53D8;&#x91CF;&#x76F8;&#x540C;&#xFF0C; _&#x7C7B;&#x540D;__&#x65B9;&#x6CD5;&#x540D; &#x3002;</strong></p>
+<p><strong>&#x65B9;&#x6CD5;&#x53D8;&#x91CF;&#x90FD;&#x5728;&#x7C7B;&#x7684; __dict__ &#x4E2D;&#x53EF;&#x4EE5;&#x627E;&#x5230;&#x3002;</strong></p>
+<p><strong>&#x79C1;&#x6709;&#x6210;&#x5458;&#x7684;&#x603B;&#x7ED3;</strong></p>
+<p><strong>&#x5728;Python&#x4E2D;&#x4F7F;&#x7528; _&#x5355;&#x4E0B;&#x5212;&#x7EBF; &#x6216;&#x8005; __ &#x53CC;&#x4E0B;&#x5212;&#x7EBF;&#x6765;&#x6807;&#x8BC6;&#x4E00;&#x4E2A;&#x6210;&#x5458;&#x88AB;&#x4FDD;&#x62A4;&#x6216;&#x8005;&#x88AB;&#x79C1;&#x6709;&#x5316;&#x9690;&#x85CF;&#x8D77;&#x6765;&#x3002;</strong></p>
+<p><strong>&#x4F46;&#x662F;&#xFF0C;&#x4E0D;&#x7BA1;&#x4F7F;&#x7528;&#x4EC0;&#x4E48;&#x6837;&#x7684;&#x8BBF;&#x95EE;&#x63A7;&#x5236;&#xFF0C;&#x90FD;&#x4E0D;&#x80FD;&#x771F;&#x6B63;&#x7684;&#x963B;&#x6B62;&#x7528;&#x6237;&#x4FEE;&#x6539;&#x7C7B;&#x7684;&#x6210;&#x5458;&#x3002;Python&#x4E2D;&#x6CA1;&#x6709;&#x7EDD;&#x5BF9;&#x7684;&#x5B89;&#x5168;&#x7684;&#x4FDD;&#x62A4;&#x6210;&#x5458; &#x6216;&#x8005;&#x79C1;&#x6709;&#x6210;&#x5458;&#x3002;</strong></p>
+<p><strong>&#x56E0;&#x6B64;&#xFF0C;&#x524D;&#x5BFC;&#x7684;&#x4E0B;&#x5212;&#x7EBF;&#x53EA;&#x662F;&#x4E00;&#x79CD;&#x8B66;&#x544A;&#x6216;&#x8005;&#x63D0;&#x9192;&#xFF0C;&#x8BF7;&#x9075;&#x5B88;&#x8FD9;&#x4E2A;&#x7EA6;&#x5B9A;&#x3002;&#x9664;&#x975E;&#x771F;&#x6709;&#x5FC5;&#x8981;&#xFF0C;&#x4E0D;&#x8981;&#x4FEE;&#x6539;&#x6216;&#x8005;&#x4F7F;&#x7528;&#x4FDD;&#x62A4;&#x6210;&#x5458;&#x6216;&#x8005;&#x79C1; &#x6709;&#x6210;&#x5458;&#xFF0C;&#x66F4;&#x4E0D;&#x8981;&#x4FEE;&#x6539;&#x5B83;&#x4EEC;&#x3002;</strong></p>
+<p><strong>&#x8865;&#x4E01;</strong></p>
+<p><strong>&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x4FEE;&#x6539;&#x6216;&#x8005;&#x66FF;&#x6362;&#x7C7B;&#x7684;&#x6210;&#x5458;&#x3002;&#x4F7F;&#x7528;&#x8005;&#x8C03;&#x7528;&#x7684;&#x65B9;&#x5F0F;&#x6CA1;&#x6709;&#x6539;&#x53D8;&#xFF0C;&#x4F46;&#x662F;&#xFF0C;&#x7C7B;&#x63D0;&#x4F9B;&#x7684;&#x529F;&#x80FD;&#x53EF;&#x80FD;&#x5DF2;&#x7ECF;&#x6539;&#x53D8;&#x4E86;&#x3002;</strong></p>
+<p><strong>&#x7334;&#x5B50;&#x8865;&#x4E01;&#xFF08;Monkey Patch&#xFF09;&#xFF1A;</strong></p>
+<p><strong>&#x5728;&#x8FD0;&#x884C;&#x65F6;&#xFF0C;&#x5BF9;&#x5C5E;&#x6027;&#x3001;&#x65B9;&#x6CD5;&#x3001;&#x51FD;&#x6570;&#x7B49;&#x8FDB;&#x884C;&#x52A8;&#x6001;&#x66FF;&#x6362;&#x3002;</strong></p>
+<p><strong>&#x5176;&#x76EE;&#x7684;&#x5F80;&#x5F80;&#x662F;&#x4E3A;&#x4E86;&#x901A;&#x8FC7;&#x66FF;&#x6362;&#x3001;&#x4FEE;&#x6539;&#x6765;&#x589E;&#x5F3A;&#x3001;&#x6269;&#x5C55;&#x539F;&#x6709;&#x4EE3;&#x7801;&#x7684;&#x80FD;&#x529B;&#x3002;</strong></p>
+<p><strong>&#x9ED1;&#x9B54;&#x6CD5;&#xFF0C;&#x614E;&#x7528;&#x3002;</strong></p>
+<blockquote>
+<p><strong># test1.py</strong></p>
+<p><strong>from test2 import Person</strong></p>
+<p><strong>from test3 import get_score</strong></p>
+<p><strong>def monkeypatch4Person():</strong></p>
+<p><strong>Person.get_score = get_score</strong></p>
+<p><strong>monkeypatch4Person() # &#x6253;&#x8865;&#x4E01;</strong></p>
+<p><strong>if __name__ == \&quot;__main__\&quot;:</strong></p>
+<p><strong>print(Person().get_score())</strong></p>
+</blockquote>
+<p><img src="media/image37.jpg" alt=""></p>
+<blockquote>
+<p><strong># test2.py</strong></p>
+<p><strong>class Person:</strong></p>
+<p><strong>def get_score(self):</strong></p>
+<p><strong># connect to mysql</strong></p>
+<p><strong>ret = {\&apos;English\&apos;:78, \&apos;Chinese\&apos;:86, \&apos;History\&apos;:82}</strong></p>
+<p><strong>return ret</strong></p>
+<p><strong># test3.py</strong></p>
+<p><strong>def get_score(self):</strong></p>
+<p><strong>return dict(name=self.__class__.__name__,English=88, Chinese=90, History=85)</strong></p>
+</blockquote>
+<p><strong>&#x4E0A;&#x4F8B;&#x4E2D;&#xFF0C;&#x5047;&#x8BBE;Person&#x7C7B;get_score&#x65B9;&#x6CD5;&#x662F;&#x4ECE;&#x6570;&#x636E;&#x5E93;&#x62FF;&#x6570;&#x636E;&#xFF0C;&#x4F46;&#x662F;&#x6D4B;&#x8BD5;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x4E0D;&#x65B9;&#x4FBF;&#x3002;</strong></p>
+<p><strong>&#x4E3A;&#x4E86;&#x6D4B;&#x8BD5;&#x65F6;&#x65B9;&#x4FBF;&#xFF0C;&#x4F7F;&#x7528;&#x7334;&#x5B50;&#x8865;&#x4E01;&#xFF0C;&#x66FF;&#x6362;&#x4E86;get_score&#x65B9;&#x6CD5;&#xFF0C;&#x8FD4;&#x56DE;&#x6A21;&#x62DF;&#x7684;&#x6570;&#x636E;&#x3002;</strong></p>
+<p><strong>&#x5C5E;&#x6027;&#x88C5;&#x9970;&#x5668;</strong></p>
+<p><strong>&#x4E00;&#x822C;&#x597D;&#x7684;&#x8BBE;&#x8BA1;&#x662F;&#xFF1A;&#x628A;&#x5B9E;&#x4F8B;&#x7684;&#x67D0;&#x4E9B;&#x5C5E;&#x6027;&#x4FDD;&#x62A4;&#x8D77;&#x6765;&#xFF0C;&#x4E0D;&#x8BA9;&#x5916;&#x90E8;&#x76F4;&#x63A5;&#x8BBF;&#x95EE;&#xFF0C;&#x5916;&#x90E8;&#x4F7F;&#x7528;getter&#x8BFB;&#x53D6;&#x5C5E;&#x6027;&#x548C;setter&#x65B9;&#x6CD5;&#x8BBE;&#x7F6E;&#x5C5E; &#x6027;&#x3002;</strong></p>
+<blockquote>
+<p><strong>class Person:</strong></p>
+<p><strong>def __init__(self, name, age=18):</strong></p>
+<p><strong>self.name = name</strong></p>
+<p><strong>self.__age = age</strong></p>
+<p><strong>def age(self):</strong></p>
+<p><strong>return self.__age</strong></p>
+<p><strong>def set_age(self, age):</strong></p>
+<p><strong>self.__age = age</strong></p>
+<p><strong>tom = Person(\&apos;Tom\&apos;)</strong></p>
+<p><strong>print(tom.age())</strong></p>
+<p><strong>tom.set_age(20)</strong></p>
+<p><strong>print(tom.age())</strong></p>
+</blockquote>
+<p><strong>&#x901A;&#x8FC7;age&#x548C;set_age&#x65B9;&#x6CD5;&#x64CD;&#x4F5C;&#x5C5E;&#x6027;&#x3002;</strong></p>
+<p><strong>&#x6709;&#x6CA1;&#x6709;&#x7B80;&#x5355;&#x7684;&#x65B9;&#x5F0F;&#x5462;&#xFF1F;</strong></p>
+<p><strong>Python&#x63D0;&#x4F9B;&#x4E86;&#x5C5E;&#x6027;property&#x88C5;&#x9970;&#x5668;&#x3002;</strong></p>
+<blockquote>
+<p><strong>class Person:</strong></p>
+<p><strong>def __init__(self, name, age=18):</strong></p>
+<p><strong>self.name = name</strong></p>
+<p><strong>self.__age = age</strong></p>
+<p><strong>\@property</strong></p>
+<p><strong>def age(self):</strong></p>
+<p><strong>return self.__age</strong></p>
+</blockquote>
+<p><img src="media/image40.jpg" alt=""></p>
+<blockquote>
+<p><strong>\@age.setter</strong></p>
+<p><strong>def age(self, age):</strong></p>
+<p><strong>self.__age = age</strong></p>
+<p><strong>\@age.deleter</strong></p>
+<p><strong>def age(self):</strong></p>
+<p><strong># del self.__age</strong></p>
+<p><strong>print(\&apos;del\&apos;)</strong></p>
+<p><strong>tom = Person(\&apos;Tom\&apos;)</strong></p>
+<p><strong>print(tom.age)</strong></p>
+<p><strong>tom.age = 20</strong></p>
+<p><strong>print(tom.age)</strong></p>
+<p><strong>del tom.age</strong></p>
+</blockquote>
+<p><strong>&#x7279;&#x522B;&#x6CE8;&#x610F;&#xFF1A;&#x4F7F;&#x7528;property&#x88C5;&#x9970;&#x5668;&#x7684;&#x65F6;&#x5019;&#x8FD9;&#x4E09;&#x4E2A;&#x65B9;&#x6CD5;&#x540C;&#x540D;</strong></p>
+<p><strong>property&#x88C5;&#x9970;&#x5668;</strong></p>
+<p><strong>&#x540E;&#x9762;&#x8DDF;&#x7684;&#x51FD;&#x6570;&#x540D;&#x5C31;&#x662F;&#x4EE5;&#x540E;&#x7684;&#x5C5E;&#x6027;&#x540D;&#x3002;&#x5B83;&#x5C31;&#x662F;getter&#x3002;&#x8FD9;&#x4E2A;&#x5FC5;&#x987B;&#x6709;&#xFF0C;&#x6709;&#x4E86;&#x5B83;&#x81F3;&#x5C11;&#x662F;&#x53EA;&#x8BFB;&#x5C5E;&#x6027; setter&#x88C5;&#x9970;&#x5668;</strong></p>
+<p><strong>&#x4E0E;&#x5C5E;&#x6027;&#x540D;&#x540C;&#x540D;&#xFF0C;&#x4E14;&#x63A5;&#x6536;2&#x4E2A;&#x53C2;&#x6570;&#xFF0C;&#x7B2C;&#x4E00;&#x4E2A;&#x662F;self&#xFF0C;&#x7B2C;&#x4E8C;&#x4E2A;&#x662F;&#x5C06;&#x8981;&#x8D4B;&#x503C;&#x7684;&#x503C;&#x3002;&#x6709;&#x4E86;&#x5B83;&#xFF0C;&#x5C5E;&#x6027;&#x53EF;&#x5199; deleter&#x88C5;&#x9970;&#x5668;</strong></p>
+<p><strong>&#x53EF;&#x4EE5;&#x63A7;&#x5236;&#x662F;&#x5426;&#x5220;&#x9664;&#x5C5E;&#x6027;&#x3002;&#x5F88;&#x5C11;&#x7528;</strong></p>
+<p><strong>property&#x88C5;&#x9970;&#x5668;&#x5FC5;&#x987B;&#x5728;&#x524D;&#xFF0C;setter&#x3001;deleter&#x88C5;&#x9970;&#x5668;&#x5728;&#x540E;&#x3002;</strong></p>
+<p><strong>property&#x88C5;&#x9970;&#x5668;&#x80FD;&#x901A;&#x8FC7;&#x7B80;&#x5355;&#x7684;&#x65B9;&#x5F0F;&#xFF0C;&#x628A;&#x5BF9;&#x65B9;&#x6CD5;&#x7684;&#x64CD;&#x4F5C;&#x53D8;&#x6210;&#x5BF9;&#x5C5E;&#x6027;&#x7684;&#x8BBF;&#x95EE;&#xFF0C;&#x5E76;&#x8D77;&#x5230;&#x4E86;&#x4E00;&#x5B9A;&#x9690;&#x85CF;&#x6548;&#x679C; &#x5176;&#x5B83;&#x7684;&#x5199;&#x6CD5;</strong></p>
+<blockquote>
+<p><strong>class Person:</strong></p>
+<p><strong>def __init__(self, name, age=18):</strong></p>
+<p><strong>self.name = name</strong></p>
+<p><strong>self.__age = age</strong></p>
+<p><strong>def getage(self):</strong></p>
+<p><strong>return self.__age</strong></p>
+<p><strong>def setage(self, age):</strong></p>
+<p><strong>self.__age = age</strong></p>
+<p><strong>def delage(self):</strong></p>
+<p><strong># del self.__age</strong></p>
+<p><strong>print(\&apos;del\&apos;)</strong></p>
+<p><strong>age = property(getage, setage, delage, \&apos;age property\&apos;)</strong></p>
+<p><strong>tom = Person(\&apos;Tom\&apos;)</strong></p>
+<p><strong>print(tom.age)</strong></p>
+<p><strong>tom.age = 20</strong></p>
+<p><strong>print(tom.age)</strong></p>
+</blockquote>
+<p><img src="media/image45.jpg" alt=""></p>
+<blockquote>
+<p><strong>del tom.age</strong></p>
+</blockquote>
+<p><strong>&#x8FD8;&#x53EF;&#x4EE5;&#x5982;&#x4E0B;</strong></p>
+<blockquote>
+<p><strong>class Person:</strong></p>
+<p><strong>def __init__(self, name, age=18):</strong></p>
+<p><strong>self.name = name</strong></p>
+<p><strong>self.__age = age</strong></p>
+<p><strong>age = property(lambda self:self.__age)</strong></p>
+<p><strong>tom = Person(\&apos;Tom\&apos;)</strong></p>
+<p><strong>print(tom.age)</strong></p>
+</blockquote>
+<p><strong>&#x5BF9;&#x8C61;&#x7684;&#x9500;&#x6BC1;</strong></p>
+<p><strong>&#x7C7B;&#x4E2D;&#x53EF;&#x4EE5;&#x5B9A;&#x4E49; __del__ &#x65B9;&#x6CD5;&#xFF0C;&#x79F0;&#x4E3A;&#x6790;&#x6784;&#x51FD;&#x6570;&#xFF08;&#x65B9;&#x6CD5;&#xFF09;&#x3002;</strong></p>
+<p><strong>&#x4F5C;&#x7528;&#xFF1A;&#x9500;&#x6BC1;&#x7C7B;&#x7684;&#x5B9E;&#x4F8B;&#x7684;&#x65F6;&#x5019;&#x8C03;&#x7528;&#xFF0C;&#x4EE5;&#x91CA;&#x653E;&#x5360;&#x7528;&#x7684;&#x8D44;&#x6E90;&#x3002;&#x5176;&#x4E2D;&#x5C31;&#x653E;&#x4E9B;&#x6E05;&#x7406;&#x8D44;&#x6E90;&#x7684;&#x4EE3;&#x7801;&#xFF0C;&#x6BD4;&#x5982;&#x91CA;&#x653E;&#x8FDE;&#x63A5;&#x3002; &#x6CE8;&#x610F;&#x8FD9;&#x4E2A;&#x65B9;&#x6CD5;&#x4E0D;&#x80FD;&#x5F15;&#x8D77;&#x5BF9;&#x8C61;&#x7684;&#x771F;&#x6B63;&#x9500;&#x6BC1;&#xFF0C;&#x53EA;&#x662F;&#x5BF9;&#x8C61;&#x9500;&#x6BC1;&#x7684;&#x65F6;&#x5019;&#x4F1A;&#x81EA;&#x52A8;&#x8C03;&#x7528;&#x5B83;&#x3002;</strong></p>
+<p><strong>&#x4F7F;&#x7528;del&#x8BED;&#x53E5;&#x5220;&#x9664;&#x5B9E;&#x4F8B;&#xFF0C;&#x5F15;&#x7528;&#x8BA1;&#x6570;&#x51CF;1&#x3002;&#x5F53;&#x5F15;&#x7528;&#x8BA1;&#x6570;&#x4E3A;0&#x65F6;&#xFF0C;&#x4F1A;&#x81EA;&#x52A8;&#x8C03;&#x7528; __del__ &#x65B9;&#x6CD5;&#x3002;</strong></p>
+<p><strong>&#x7531;&#x4E8E;Python&#x5B9E;&#x73B0;&#x4E86;&#x5783;&#x573E;&#x56DE;&#x6536;&#x673A;&#x5236;&#xFF0C;&#x4E0D;&#x80FD;&#x786E;&#x5B9A;&#x5BF9;&#x8C61;&#x4F55;&#x65F6;&#x6267;&#x884C;&#x5783;&#x573E;&#x56DE;&#x6536;&#x3002;</strong></p>
+<blockquote>
+<p><strong>import time</strong></p>
+<p><strong>class Person:</strong></p>
+<p><strong>def __init__(self, name, age=18):</strong></p>
+<p><strong>self.name = name</strong></p>
+<p><strong>self.__age = age</strong></p>
+<p><strong>def __del__(self):</strong></p>
+<p><strong>print(\&apos;delete {}\&apos;.format(self.name))</strong></p>
+<p><strong>def test():</strong></p>
+<p><strong>tom = Person(\&apos;tom\&apos;)</strong></p>
+<p><strong>tom.__del__() # &#x624B;&#x52A8;&#x8C03;&#x7528;</strong></p>
+<p><strong>tom.__del__()</strong></p>
+<p><strong>tom.__del__()</strong></p>
+<p><strong>tom.__del__()</strong></p>
+<p><strong>print(\&apos;======start======\&apos;)</strong></p>
+<p><strong>tom2 = tom</strong></p>
+<p><strong>tom3 = tom2</strong></p>
+<p><strong>print(1, \&apos;del\&apos;)</strong></p>
+<p><strong>del tom</strong></p>
+<p><strong>time.sleep(3)</strong></p>
+<p><strong>print(2, \&apos;del\&apos;)</strong></p>
+</blockquote>
+<p><img src="media/image50.jpg" alt=""></p>
+<blockquote>
+<p><strong>del tom2</strong></p>
+<p><strong>time.sleep(3)</strong></p>
+<p><strong>print(\&apos;~~~~~~~~~\&apos;)</strong></p>
+<p><strong>del tom3 # &#x6CE8;&#x91CA;&#x4E00;&#x4E0B;&#x770B;&#x770B;&#x6548;&#x679C;</strong></p>
+<p><strong>time.sleep(3)</strong></p>
+<p><strong>print(\&apos;=======end\&apos;)</strong></p>
+<p><strong>test()</strong></p>
+</blockquote>
+<p><strong>&#x7531;&#x4E8E;&#x5783;&#x573E;&#x56DE;&#x6536;&#x5BF9;&#x8C61;&#x9500;&#x6BC1;&#x65F6;&#xFF0C;&#x624D;&#x4F1A;&#x771F;&#x6B63;&#x6E05;&#x7406;&#x5BF9;&#x8C61;&#xFF0C;&#x8FD8;&#x4F1A;&#x5728;&#x56DE;&#x6536;&#x5BF9;&#x8C61;&#x4E4B;&#x524D;&#x81EA;&#x52A8;&#x8C03;&#x7528; __del__ &#x65B9;&#x6CD5;&#xFF0C;&#x9664;&#x975E;&#x4F60;&#x660E;&#x786E;&#x77E5;&#x9053;&#x81EA; &#x5DF1;&#x7684;&#x76EE;&#x7684;&#xFF0C;&#x5EFA;&#x8BAE;&#x4E0D;&#x8981;&#x624B;&#x52A8;&#x8C03;&#x7528;&#x8FD9;&#x4E2A;&#x65B9;&#x6CD5;&#x3002;</strong></p>
+<p><strong>&#x65B9;&#x6CD5;&#x91CD;&#x8F7D;(overload)</strong></p>
+<p><strong>&#x5176;&#x4ED6;&#x9762;&#x5411;&#x5BF9;&#x8C61;&#x7684;&#x9AD8;&#x7EA7;&#x8BED;&#x8A00;&#x4E2D;&#xFF0C;&#x4F1A;&#x6709;&#x91CD;&#x8F7D;&#x7684;&#x6982;&#x5FF5;&#x3002;</strong></p>
+<p><strong>&#x6240;&#x8C13;&#x91CD;&#x8F7D;&#xFF0C;&#x5C31;&#x662F;&#x540C;&#x4E00;&#x4E2A;&#x65B9;&#x6CD5;&#x540D;&#xFF0C;&#x4F46;&#x662F;&#x53C2;&#x6570;&#x4E2A;&#x6570;&#x3001;&#x7C7B;&#x578B;&#x4E0D;&#x4E00;&#x6837;&#xFF0C;&#x5C31;&#x662F;&#x540C;&#x4E00;&#x4E2A;&#x65B9;&#x6CD5;&#x7684;&#x91CD;&#x8F7D;&#x3002;</strong></p>
+<p><strong>Python&#x6CA1;&#x6709;&#x91CD;&#x8F7D;&#xFF01;</strong></p>
+<p><strong>Python&#x4E0D;&#x9700;&#x8981;&#x91CD;&#x8F7D;&#xFF01;</strong></p>
+<p><strong>Python&#x4E2D;&#xFF0C;&#x65B9;&#x6CD5;&#xFF08;&#x51FD;&#x6570;&#xFF09;&#x5B9A;&#x4E49;&#x4E2D;&#xFF0C;&#x5F62;&#x53C2;&#x975E;&#x5E38;&#x7075;&#x6D3B;&#xFF0C;&#x4E0D;&#x9700;&#x8981;&#x6307;&#x5B9A;&#x7C7B;&#x578B;&#xFF08;&#x5C31;&#x7B97;&#x6307;&#x5B9A;&#x4E86;&#x4E5F;&#x53EA;&#x662F;&#x4E00;&#x4E2A;&#x8BF4;&#x660E;&#x800C;&#x975E;&#x7EA6;&#x675F;&#xFF09;&#xFF0C;&#x53C2; &#x6570;&#x4E2A;&#x6570;&#x4E5F;&#x4E0D;&#x56FA;&#x5B9A;&#xFF08;&#x53EF;&#x53D8;&#x53C2;&#x6570;&#xFF09;&#x3002;&#x4E00;&#x4E2A;&#x51FD;&#x6570;&#x7684;&#x5B9A;&#x4E49;&#x53EF;&#x4EE5;&#x5B9E;&#x73B0;&#x5F88;&#x591A;&#x79CD;&#x4E0D;&#x540C;&#x5F62;&#x5F0F;&#x5B9E;&#x53C2;&#x7684;&#x8C03;&#x7528;&#x3002;&#x6240;&#x4EE5;Python&#x4E0D;&#x9700;&#x8981;&#x65B9;&#x6CD5;&#x7684; &#x91CD;&#x8F7D;&#x3002;</strong></p>
+<p><strong>&#x6216;&#x8005;&#x8BF4;Python&#x8BED;&#x6CD5;&#x672C;&#x8EAB;&#x5C31;&#x5B9E;&#x73B0;&#x4E86;&#x5176;&#x5B83;&#x8BED;&#x8A00;&#x7684;&#x91CD;&#x8F7D;&#x3002;</strong></p>
+<p><strong>&#x5C01;&#x88C5;</strong></p>
+<p><strong>&#x9762;&#x5411;&#x5BF9;&#x8C61;&#x7684;&#x4E09;&#x8981;&#x7D20;&#x4E4B;&#x4E00;&#xFF0C;&#x5C01;&#x88C5;Encapsulation</strong></p>
+<p><strong>&#x5C01;&#x88C5;</strong></p>
+<p><strong>&#x5C06;&#x6570;&#x636E;&#x548C;&#x64CD;&#x4F5C;&#x7EC4;&#x7EC7;&#x5230;&#x7C7B;&#x4E2D;&#xFF0C;&#x5373;&#x5C5E;&#x6027;&#x548C;&#x65B9;&#x6CD5;</strong></p>
+<p><strong>&#x5C06;&#x6570;&#x636E;&#x9690;&#x85CF;&#x8D77;&#x6765;&#xFF0C;&#x7ED9;&#x4F7F;&#x7528;&#x8005;&#x63D0;&#x4F9B;&#x64CD;&#x4F5C;&#xFF08;&#x65B9;&#x6CD5;&#xFF09;&#x3002;&#x4F7F;&#x7528;&#x8005;&#x901A;&#x8FC7;&#x64CD;&#x4F5C;&#x5C31;&#x53EF;&#x4EE5;&#x83B7;&#x53D6;&#x6216;&#x8005;&#x4FEE;&#x6539;&#x6570;&#x636E;&#x3002;getter&#x548C;setter&#x3002; &#x901A;&#x8FC7;&#x8BBF;&#x95EE;&#x63A7;&#x5236;&#xFF0C;&#x66B4;&#x9732;&#x9002;&#x5F53;&#x7684;&#x6570;&#x636E;&#x548C;&#x64CD;&#x4F5C;&#x7ED9;&#x7528;&#x6237;&#xFF0C;&#x8BE5;&#x9690;&#x85CF;&#x7684;&#x9690;&#x85CF;&#x8D77;&#x6765;&#xFF0C;&#x4F8B;&#x5982;&#x4FDD;&#x62A4;&#x6210;&#x5458;&#x6216;&#x79C1;&#x6709;&#x6210;&#x5458;&#x3002;</strong></p>
+<p><strong>&#x7EC3;&#x4E60;</strong></p>
+<p><strong>1&#x3001;&#x968F;&#x673A;&#x6574;&#x6570;&#x751F;&#x6210;&#x7C7B;</strong></p>
+<p><strong>&#x53EF;&#x4EE5;&#x5148;&#x8BBE;&#x5B9A;&#x4E00;&#x6279;&#x751F;&#x6210;&#x6570;&#x5B57;&#x7684;&#x4E2A;&#x6570;&#xFF0C;&#x53EF;&#x8BBE;&#x5B9A;&#x6307;&#x5B9A;&#x751F;&#x6210;&#x7684;&#x6570;&#x503C;&#x7684;&#x8303;&#x56F4;&#x3002;&#x8FD0;&#x884C;&#x65F6;&#x8FD8;&#x53EF;&#x4EE5;&#x8C03;&#x6574;&#x6BCF;&#x6279;&#x751F;&#x6210;&#x6570;&#x5B57;&#x7684;&#x4E2A;&#x6570; 2&#x3001;&#x6253;&#x5370;&#x5750;&#x6807;</strong></p>
+<p><strong>&#x4F7F;&#x7528;&#x4E0A;&#x9898;&#x4E2D;&#x7684;&#x7C7B;&#xFF0C;&#x968F;&#x673A;&#x751F;&#x6210;20&#x4E2A;&#x6570;&#x5B57;&#xFF0C;&#x4E24;&#x4E24;&#x914D;&#x5BF9;&#x5F62;&#x6210;&#x4E8C;&#x7EF4;&#x5750;&#x6807;&#x7CFB;&#x7684;&#x5750;&#x6807;&#xFF0C;&#x628A;&#x8FD9;&#x4E9B;&#x5750;&#x6807;&#x7EC4;&#x7EC7;&#x8D77;&#x6765;&#xFF0C;&#x5E76;&#x6253;&#x5370;&#x8F93;&#x51FA; 3&#x3001;&#x8F66;&#x8F86;&#x4FE1;&#x606F;</strong></p>
+<p><strong>&#x8BB0;&#x5F55;&#x8F66;&#x7684;&#x54C1;&#x724C;mark&#x3001;&#x989C;&#x8272;color&#x3001;&#x4EF7;&#x683C;price&#x3001;&#x901F;&#x5EA6;speed&#x7B49;&#x7279;&#x5F81;&#xFF0C;&#x5E76;&#x5B9E;&#x73B0;&#x8F66;&#x8F86;&#x7BA1;&#x7406;&#xFF0C;&#x80FD;&#x589E;&#x52A0;&#x8F66;&#x8F86;&#x3001;&#x663E;&#x793A;&#x5168;&#x90E8;&#x8F66;&#x8F86;&#x7684; &#x4FE1;&#x606F;&#x529F;&#x80FD;</strong></p>
+<p><strong>4&#x3001;&#x5B9E;&#x73B0;&#x6E29;&#x5EA6;&#x7684;&#x5904;&#x7406;</strong></p>
+<p><img src="media/image53.jpg" alt=""></p>
+<blockquote>
+<p><strong>&#x5B9E;&#x73B0;&#x534E;&#x6C0F;&#x6E29;&#x5EA6;&#x548C;&#x6444;&#x6C0F;&#x6E29;&#x5EA6;&#x7684;&#x8F6C;&#x6362;&#x3002;</strong></p>
+<p><strong>&#x2103; = 5 &#xD7; (&#x2109; - 32) / 9</strong></p>
+<p><strong>&#x2109; = 9 &#xD7; &#x2103; / 5 + 32</strong></p>
+</blockquote>
+<p><strong>&#x5B8C;&#x6210;&#x4EE5;&#x4E0A;&#x8F6C;&#x6362;&#x540E;&#xFF0C;&#x589E;&#x52A0;&#x4E0E;&#x5F00;&#x6C0F;&#x6E29;&#x5EA6;&#x7684;&#x8F6C;&#x6362;&#xFF0C;K = &#x2103; + 273.15 5&#x3001;&#x6A21;&#x62DF;&#x8D2D;&#x7269;&#x8F66;&#x8D2D;&#x7269;</strong></p>
+<hr>
+<footer class="page-footer"><span class="copyright">Copyright &#xA9; hubhack 2019 all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification">&#x8BE5;&#x6587;&#x4EF6;&#x4FEE;&#x8BA2;&#x65F6;&#x95F4;&#xFF1A;
+2019-05-26 14:19:22
+</span></footer>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="dict.html" class="navigation navigation-prev " aria-label="Previous page: dict(字典)">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="魔术方法.html" class="navigation navigation-next " aria-label="Next page: 魔术方法">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"面向对象","level":"4.1","depth":1,"next":{"title":"魔术方法","level":"4.2","depth":1,"path":"objects/魔术方法.md","ref":"objects/魔术方法.md","articles":[]},"previous":{"title":"dict(字典)","level":"3.5","depth":1,"path":"objects/dict.md","ref":"objects/dict.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-sharing","splitter","expandable-chapters-small","anchors","tbfed-pagefooter","github","github-buttons","donate","sharing-plus","anchor-navigation-ex","favicon"],"styles":{"website":"./styles/website.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"Copyright © hubhack 2019","modify_label":"该文件修订时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"github":{"url":"https://github.com/hubhack/"},"splitter":{},"search":{},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"donate":{"alipay":"https://hubhack.cn/python-book/img/支付宝.jpg","alipayText":" ","button":"赞赏","title":"","wechat":"","wechatText":"微信打赏"},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"anchor-navigation-ex":{"associatedWithSummary":true,"float":{"floatIcon":"fa fa-navicon","level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"mode":"float","multipleH1":true,"pageTop":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"printLog":false,"showGoTop":true,"showLevel":false},"favicon":{"shortcut":"./source/images/favicon.jpg","bookmark":"./source/images/favicon.jpg","appleTouch":"./source/images/apple-touch-icon.jpg","appleTouchMore":{"120x120":"./source/images/apple-touch-icon.jpg","180x180":"./source/images/apple-touch-icon.jpg"}},"github-buttons":{"buttons":[{"user":"hubhack","repo":"python-book","type":"star","size":"small","count":true}]},"expandable-chapters-small":{},"sharing":{"qq":false,"all":["google","facebook","weibo","twitter","qq","qzone","linkedin","pocket"],"douban":false,"facebook":false,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":false,"messenger":false,"line":false,"vk":false,"pocket":false,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"anchors":{}},"theme":"default","author":"hubhack","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"python","language":"zh-hans","links":{"sidebar":{"主页":"https://github.com/hubhack/python-book"}},"gitbook":"3.2.3","description":"python知识分享"},"file":{"path":"objects/面向对象.md","mtime":"2019-05-26T06:19:22.418Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-06-08T16:07:04.452Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-github-buttons/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-donate/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing-plus/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

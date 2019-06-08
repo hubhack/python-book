@@ -21,7 +21,7 @@
 
 ## 第 4部分: Python 面向对象
 - [面向对象](objects/面向对象.md)
-- [魔术方法]()
+- [魔术方法](objects/魔术方法.md)
 - [描述器](objects/描述器.md)
 
 ## 第 5 部分：Python 并发
