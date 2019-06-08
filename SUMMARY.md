@@ -10,7 +10,7 @@
 - [语法](objects/语法.md)
 - [函数](objects/函数.md)
 - [装饰器](objects/装饰器.md)
-- [语法糖]()
+
 
 ## 第 3 部分：Python 容器
 - [string(字符串)](objects/string.md)
