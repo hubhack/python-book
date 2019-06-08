@@ -1,7 +1,7 @@
 {
     "title": "python",
     "author": "hubhack",
-    "description": "select * from learn",
+    "description": "python知识分享",
     "language": "zh-hans",
     "gitbook": "3.2.3",
     "styles": {
@@ -12,7 +12,7 @@
     },
     "links": {
         "sidebar": {
-            "我的狗窝": "https://github.com/hubhack/python-book"
+            "home": "https://github.com/hubhack/python-book"
         }
     },
     "plugins": [
@@ -21,6 +21,7 @@
         "expandable-chapters-small",
         "anchors",
 
+        "tbfed-pagefooter",
         "github",
         "github-buttons",
         "donate",
@@ -30,7 +31,7 @@
     ],
     "pluginsConfig": {
         "github": {
-            "url": "https://github.com/hubhack"
+            "url": "https://github.com/hubhack/"
         },
         "github-buttons": {
             "buttons": [{
@@ -42,6 +43,11 @@
                 }
             ]
         },
+        "tbfed-pagefooter": {
+            "copyright": "Copyright © hubhack 2019",
+            "modify_label": "该文件修订时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+          },
         "donate": {
             "alipay": "./source/images/donate.png",
             "title": "",
