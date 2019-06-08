@@ -4,7 +4,7 @@
 ## 第 1 部分：序章
 
 - [前言](README.md)
-- [python源代码]()
+
 
 ## 第 2 部分：Python 基础 
 - [语法](objects/语法.md)
