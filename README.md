@@ -10,9 +10,11 @@
 
 ## 前置条件
 
-您的系统上需要安装好 node。安装过程请百度.
+您的系统上需要安装好 [node](https://nodejs.org/zh-cn/).  
+安装完成后,在cmd中输入npm-v,出现如下即为安装完成.   
+![npm](./img/npm.jpg)
 
-## 使用 make 命令
+## 使用 make 命令(终端)
 
 若您可使用 make 命令，简单执行如下命令进行初始化：
 
@@ -26,7 +28,7 @@ make init
 make run
 ```
 
-## 使用 gitbook 命令
+## 使用 gitbook 命令(win10)
 
 若您不能使用 make 命令，或想直接使用 gitbook 命令，执行如下命令进行初始化：
 
