@@ -30,9 +30,22 @@ gitbook install
 gitbook serve # 开启服务
 ```
 
+
 ## 访问
 
 直接访问 http://localhost:4000 即可查看本书内容。
+
+
+### gitbook命令行
+1. gitbook init
+gitbook项目初始化。
+
+2. gitbook serve
+启动gitbook项目并提供http://localhost:4000为浏览器浏览链接。
+
+3. gitbook build [path]
+构建gitbook项目，构建路径可省略，默认为_book
+
 
 ### 参与交流
 您可以使用 Issues 以及 Pull Request
