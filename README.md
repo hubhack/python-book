@@ -47,9 +47,9 @@ gitbook项目初始化。
 构建gitbook项目，构建路径可省略，默认为_book
 
 ### 书籍整理
-流畅的python++(经典书籍学python必看)
-python cookbook
-python学习手册
+>流畅的python++  
+>python cookbook  
+>python学习手册
 
 ### 参与交流
 您可以使用 Issues 以及 Pull Request
