@@ -15,13 +15,13 @@
 ![npm](./img/npm.jpg)
 
 
-## 使用 gitbook 命令(win10)
+## 使用 gitbook 命令
 
 若您不能使用 make 命令，或想直接使用 gitbook 命令，执行如下命令进行初始化：
 
 ```console
 npm i -g gitbook-cli #可能需要sudo
-gitbook install
+gitbook install # 安装gitbook插件, 安装完会在本目录生成一个node_modules文件夹
 ```
 
 执行如下命令运行服务端：
