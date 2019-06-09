@@ -4,8 +4,6 @@
 对初学者来说,可以当作一份python入门学习指南.  
 
 
-
-
 # 使用
 
 您可以直接访问 [在线版](https://hubhack.cn/python-book/)，或者有的朋友网速不好, 可以根据以下步骤访问本地版。
@@ -15,6 +13,7 @@
 您的系统上需要安装好 [node](https://nodejs.org/zh-cn/).  
 安装完成后,在cmd中输入npm-v,出现如下即为安装完成.   
 ![npm](./img/npm.jpg)
+
 
 ## 使用 gitbook 命令(win10)
 
