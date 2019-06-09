@@ -34,3 +34,6 @@ gitbook serve # 开启服务
 
 直接访问 http://localhost:4000 即可查看本书内容。
 
+### 参与交流
+您可以使用 Issues 以及 Pull Request
+贡献者名单: https://github.com/hubhack/python-book/graphs/contributors
