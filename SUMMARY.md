@@ -27,7 +27,8 @@
 
 ## 第 5 部分：Python 并发
 - [多线程](objects/多线程.md)
-
+- [多进程](objects/多进程.md)
+- [logging](objects/logging.md)
 
 ## 第 6 部分：Python IO
 - [文件](objects/文件操作.md)
