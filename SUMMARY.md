@@ -6,7 +6,7 @@
 - [前言](README.md)
 - [内存模型](objects/序章/内存模型.md)
 - [源码框架](objects/序章/源代码.md)
-- [liunx]()
+
 ## 第 2 部分：Python 基础 
 - [语法](objects/基础/语法.md)
 - [函数](objects/基础/函数.md)
@@ -31,7 +31,6 @@
 - [logging](objects/并发/logging.md)
 
 ## 第 6 部分：Python IO
-- [IO对象]()
 - [文件IO](objects/IO/文件操作.md)
 - [网络IO](objects/IO/网络协议.md)
 
