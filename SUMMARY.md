@@ -11,7 +11,7 @@
 - [语法](objects/基础/语法.md)
 - [函数](objects/基础/函数.md)
 - [装饰器](objects/基础/装饰器.md)
-
+- [pythonic](objects/基础/python小技巧.md)
 
 ## 第 3 部分：Python 容器
 - [string(字符串)](objects/容器/string.md)
@@ -33,7 +33,7 @@
 ## 第 6 部分：Python IO
 - [IO对象]()
 - [文件IO](objects/IO/文件操作.md)
-- [网络IO]()
+- [网络IO](objects/IO/网络协议.md)
 
 ## 第7部分: 数据库
 - [关系型]()
