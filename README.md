@@ -1,6 +1,7 @@
 # 介绍
 
-本小书是用gitbook + github page构建而成的.
+本小书
+是用gitbook + github page构建而成的.
 对初学者来说,可以当作一份python入门学习指南.  
 
 

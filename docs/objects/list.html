@@ -1,0 +1,722 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>list(列表) · python</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="hubhack">
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-anchors/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-tbfed-pagefooter/footer.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-anchor-navigation-ex/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+
+        
+    
+    
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="tuple.html" />
+    
+    
+    <link rel="prev" href="string.html" />
+    
+
+    
+        <link rel="shortcut icon" href='../source/images/favicon.jpg' type="image/x-icon">
+    
+    
+        <link rel="bookmark" href='../source/images/favicon.jpg' type="image/x-icon">
+    
+    
+        <link rel="apple-touch-icon" href='../source/images/apple-touch-icon.jpg'>
+    
+    
+        
+        <link rel="apple-touch-icon" sizes="120x120" href="../source/images/apple-touch-icon.jpg">
+        
+        <link rel="apple-touch-icon" sizes="180x180" href="../source/images/apple-touch-icon.jpg">
+        
+    
+
+    <style>
+    @media only screen and (max-width: 640px) {
+        .book-header .hidden-mobile {
+            display: none;
+        }
+    }
+    </style>
+    <script>
+        window["gitbook-plugin-github-buttons"] = {"buttons":[{"user":"hubhack","repo":"python-book","type":"star","size":"small","count":true}]};
+    </script>
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+    
+        
+        <li>
+            <a href="https://github.com/hubhack/python-book" target="_blank" class="custom-link">主页</a>
+        </li>
+    
+    
+
+    
+    <li class="divider"></li>
+    
+
+    
+        
+        <li class="header">第 1 部分：序章</li>
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    前言
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="内存模型.html">
+            
+                <a href="内存模型.html">
+            
+                    
+                    内存模型
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="源代码.html">
+            
+                <a href="源代码.html">
+            
+                    
+                    源码框架
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" >
+            
+                <span>
+            
+                    
+                    liunx
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="语法.html">
+            
+                <a href="语法.html">
+            
+                    
+                    语法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="函数.html">
+            
+                <a href="函数.html">
+            
+                    
+                    函数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="装饰器.html">
+            
+                <a href="装饰器.html">
+            
+                    
+                    装饰器
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">第 3 部分：Python 容器</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="string.html">
+            
+                <a href="string.html">
+            
+                    
+                    string(字符串)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="2.2" data-path="list.html">
+            
+                <a href="list.html">
+            
+                    
+                    list(列表)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="tuple.html">
+            
+                <a href="tuple.html">
+            
+                    
+                    tuple(元组)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="set.html">
+            
+                <a href="set.html">
+            
+                    
+                    set(集合)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="dict.html">
+            
+                <a href="dict.html">
+            
+                    
+                    dict(字典)
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">第 4部分: Python 面向对象</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="面向对象.html">
+            
+                <a href="面向对象.html">
+            
+                    
+                    面向对象
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="魔术方法.html">
+            
+                <a href="魔术方法.html">
+            
+                    
+                    魔术方法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="描述器.html">
+            
+                <a href="描述器.html">
+            
+                    
+                    描述器
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">第 5 部分：Python 并发</li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" data-path="多线程.html">
+            
+                <a href="多线程.html">
+            
+                    
+                    多线程
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="多进程.html">
+            
+                <a href="多进程.html">
+            
+                    
+                    多进程
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3" data-path="logging.html">
+            
+                <a href="logging.html">
+            
+                    
+                    logging
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">第 6 部分：Python IO</li>
+        
+        
+    
+        <li class="chapter " data-level="5.1" >
+            
+                <span>
+            
+                    
+                    IO对象
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2" data-path="文件操作.html">
+            
+                <a href="文件操作.html">
+            
+                    
+                    文件IO
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.3" >
+            
+                <span>
+            
+                    
+                    网络IO
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">第7部分: 数据库</li>
+        
+        
+    
+        <li class="chapter " data-level="6.1" >
+            
+                <span>
+            
+                    
+                    关系型
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.2" >
+            
+                <span>
+            
+                    
+                    非关系型
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.3" >
+            
+                <span>
+            
+                    
+                    flask
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.4" >
+            
+                <span>
+            
+                    
+                    Django
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >list(列表)</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-navicon"></i><ul><ul><ul><li><span class="title-icon "></span><a href="#&#x5217;&#x8868;list"><b></b>&#x5217;&#x8868;list</a></li></ul></ul></ul></div><a href="#" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h3 id="&#x5217;&#x8868;list"><a name="&#x5217;&#x8868;list" class="anchor-navigation-ex-anchor" href="#&#x5217;&#x8868;list"><i class="fa fa-link" aria-hidden="true"></i></a><a name="&#x5217;&#x8868;list" class="plugin-anchor" href="#&#x5217;&#x8868;list"><i class="fa fa-link" aria-hidden="true"></i></a>&#x5217;&#x8868;list</h3>
+<p>&#x4E00;&#x4E2A;&#x961F;&#x5217;&#xFF0C;&#x4E00;&#x4E2A;&#x6392;&#x5217;&#x6574;&#x9F50;&#x7684;&#x961F;&#x4F0D; .
+&#x5217;&#x8868;&#x5185;&#x7684;&#x4E2A;&#x4F53;&#x79F0;&#x4F5C;&#x5143;&#x7D20;&#xFF0C;&#x7531;&#x82E5;&#x5E72;&#x5143;&#x7D20;&#x7EC4;&#x6210;&#x5217;&#x8868; .
+&#x5143;&#x7D20;&#x53EF;&#x4EE5;&#x662F;&#x4EFB;&#x610F;&#x5BF9;&#x8C61;&#xFF08;&#x6570;&#x5B57;&#x3001;&#x5B57;&#x7B26;&#x4E32;&#x3001;&#x5BF9;&#x8C61;&#x3001;&#x5217;&#x8868;&#x7B49; .
+&#x5217;&#x8868;&#x5185;&#x5143;&#x7D20;&#x7531;&#x987A;&#x5E8F;&#xFF0C;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;&#x7D22;&#x5F15; .&#x5217;&#x8868;&#x662F;&#x7EBF;&#x6027;&#x7684;&#x6570;&#x636E;&#x7ED3;&#x6784; .
+&#x4F7F;&#x7528; [ ] &#x8868;&#x793A; ,&#x5217;&#x8868;&#x662F;&#x53EF;&#x53D8;&#x7684;  . </p>
+<p>&#x5217;&#x8868;list&#x5B9A;&#x4E49; &#x521D;&#x59CB;&#x5316; 
+list( ) - &gt; new empty list 
+list(iterable) - &gt; new list initlized from iterable&apos;s items  </p>
+<p>&#x5217;&#x8868;&#x4E0D;&#x80FD;&#x4E00;&#x5F00;&#x59CB;&#x5C31;&#x5B9A;&#x4E49;&#x5927;&#x5C0F;</p>
+<pre><code>lst = list( ) 
+lst = [ ] 
+lst = [2, 6, 9, &apos;ab&apos;] 
+lst = list(range(5))
+</code></pre><h5 id="&#x5217;&#x8868;&#x7D22;&#x5F15;&#x8BBF;&#x95EE;"><a name="&#x5217;&#x8868;&#x7D22;&#x5F15;&#x8BBF;&#x95EE;" class="anchor-navigation-ex-anchor" href="#&#x5217;&#x8868;&#x7D22;&#x5F15;&#x8BBF;&#x95EE;"><i class="fa fa-link" aria-hidden="true"></i></a><a name="&#x5217;&#x8868;&#x7D22;&#x5F15;&#x8BBF;&#x95EE;" class="plugin-anchor" href="#&#x5217;&#x8868;&#x7D22;&#x5F15;&#x8BBF;&#x95EE;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x5217;&#x8868;&#x7D22;&#x5F15;&#x8BBF;&#x95EE;</h5>
+<p>&#x7D22;&#x5F15;&#xFF1A;&#x4E5F;&#x53EB;&#x4E0B;&#x6807;&#xFF0C;&#x6B63;&#x7D22;&#x5F15;&#xFF1A;&#x4ECE;&#x5DE6;&#x81F3;&#x53F3;&#xFF0C;&#x4ECE;0&#x5F00;&#x59CB;&#xFF0C;&#x4E3A;&#x5217;&#x8868;&#x4E2D;&#x6BCF;&#x4E00;&#x4E2A;&#x5143;&#x7D20;&#x6807;&#x53F7;&#xFF1B;&#x8D1F;&#x7D22;&#x5F15;&#xFF1A;&#x4ECE;&#x53F3;&#x5F00;&#x59CB;&#xFF0C;&#x4ECE;-1&#x5F00;&#x59CB;&#x3002;&#x6B63;&#x8D1F;&#x7D22;&#x5F15;&#x4E0D;&#x53EF;&#x4EE5;&#x8D85;&#x754C;&#xFF0C;&#x5426;&#x5219;&#x4F1A;&#x5F15;&#x53D1;&#x5F02;&#x5E38;IndexError&#xFF0C;&#x4E3A;&#x4E86;&#x7406;&#x89E3;&#x65B9;&#x4FBF;&#xFF0C;&#x53EF;&#x4EE5;&#x8BA4;&#x4E3A;&#x5217;&#x8868;&#x662F;&#x4ECE;&#x5DE6;&#x81F3;&#x53F3;&#x6392;&#x5217;&#xFF0C;&#x5DE6;&#x8FB9;&#x662F;&#x5934;&#x90E8;&#xFF0C;&#x53F3;&#x8FB9;&#x662F;&#x5C3E;&#x90E8;&#xFF0C;&#x5DE6;&#x8FB9;&#x662F;&#x4E0B;&#x754C;&#xFF0C;&#x53F3;&#x8FB9;&#x662F;&#x4E0A;&#x754C;  </p>
+<blockquote>
+<p>list[index]  index&#x5C31;&#x7D22;&#x5F15;&#xFF0C;&#x4F7F;&#x7528;&#x4E2D;&#x62EC;&#x53F7;&#x8BBF;&#x95EE;  </p>
+</blockquote>
+<h5 id="&#x5217;&#x8868;&#x67E5;&#x8BE2;"><a name="&#x5217;&#x8868;&#x67E5;&#x8BE2;" class="anchor-navigation-ex-anchor" href="#&#x5217;&#x8868;&#x67E5;&#x8BE2;"><i class="fa fa-link" aria-hidden="true"></i></a><a name="&#x5217;&#x8868;&#x67E5;&#x8BE2;" class="plugin-anchor" href="#&#x5217;&#x8868;&#x67E5;&#x8BE2;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x5217;&#x8868;&#x67E5;&#x8BE2;</h5>
+<pre><code>index(value,[start,[stop]])  
+&#x901A;&#x8FC7;&#x503C;value&#xFF0C;&#x4ECE;&#x6307;&#x5B9A;&#x533A;&#x95F4;&#x67E5;&#x627E;&#x5217;&#x8868;&#x5185;&#x7684;&#x5143;&#x7D20;&#x662F;&#x5426;&#x5339;&#x914D;  
+&#x5339;&#x914D;&#x7B2C;&#x4E00;&#x4E2A;&#x5C31;&#x7ACB;&#x5373;&#x8FD4;&#x56DE;&#x7D22;&#x5F15;  
+&#x5339;&#x914D;&#x4E0D;&#x5230;&#xFF0C;&#x629B;&#x51FA;&#x5F02;&#x5E38;ValueError  
+count(value)  
+&#x8FD4;&#x56DE;&#x5217;&#x8868;&#x4E2D;&#x5339;&#x914D;value&#x7684;&#x6B21;&#x6570;  
+&#x65F6;&#x95F4;&#x590D;&#x6742;&#x5EA6;  
+index&#x548C;count&#x65B9;&#x6CD5;&#x90FD;&#x662F;O(n)  
+&#x968F;&#x7740;&#x5217;&#x8868;&#x6570;&#x636E;&#x89C4;&#x6A21;&#x7684;&#x589E;&#x5927;&#xFF0C;&#x800C;&#x6548;&#x7387;&#x4E0B;&#x964D;  
+&#x8FD4;&#x56DE;&#x5217;&#x8868;&#x5143;&#x7D20;&#x7684;&#x4E2A;&#x6570;  
+len( )  
+&#x7D22;&#x5F15;&#x8BBF;&#x95EE;&#x4FEE;&#x6539;  
+list[index] = value  &#x7D22;&#x5F15;&#x4E0D;&#x80FD;&#x8D85;&#x754C;
+</code></pre><h5 id="&#x5217;&#x8868;&#x589E;&#x52A0;&#x3001;&#x63D2;&#x5165;&#x5143;&#x7D20;"><a name="&#x5217;&#x8868;&#x589E;&#x52A0;&#x3001;&#x63D2;&#x5165;&#x5143;&#x7D20;" class="anchor-navigation-ex-anchor" href="#&#x5217;&#x8868;&#x589E;&#x52A0;&#x3001;&#x63D2;&#x5165;&#x5143;&#x7D20;"><i class="fa fa-link" aria-hidden="true"></i></a><a name="&#x5217;&#x8868;&#x589E;&#x52A0;&#x3001;&#x63D2;&#x5165;&#x5143;&#x7D20;" class="plugin-anchor" href="#&#x5217;&#x8868;&#x589E;&#x52A0;&#x3001;&#x63D2;&#x5165;&#x5143;&#x7D20;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x5217;&#x8868;&#x589E;&#x52A0;&#x3001;&#x63D2;&#x5165;&#x5143;&#x7D20;</h5>
+<pre><code>append(object) - &gt; None  
+&#x5217;&#x8868;&#x5C3E;&#x90E8;&#x8FFD;&#x52A0;&#x5143;&#x7D20;&#xFF0C;&#x8FD4;&#x56DE;None  
+&#x8FD4;&#x56DE;None&#x5C31;&#x610F;&#x5473;&#x7740;&#x6CA1;&#x6709;&#x65B0;&#x7684;&#x5217;&#x8868;&#x4EA7;&#x751F;&#xFF0C;&#x5C31;&#x5730;&#x4FEE;&#x6539;  
+&#x65F6;&#x95F4;&#x590D;&#x6742;&#x5EA6;&#x662F;O(1)  
+insert(index,object) - &gt; None  
+&#x5728;&#x6307;&#x5B9A;&#x7684;&#x7D22;&#x5F15;index&#x5904;&#x63D2;&#x5165;&#x5143;&#x7D20;object  
+&#x8FD4;&#x56DE;None&#x5C31;&#x610F;&#x5473;&#x7740;&#x6CA1;&#x6709;&#x65B0;&#x7684;&#x5217;&#x8868;&#x4EA7;&#x751F;&#xFF0C;&#x5C31;&#x5730;&#x4FEE;&#x6539;  
+&#x65F6;&#x95F4;&#x590D;&#x6742;&#x5EA6;&#x662F;O(n)  
+&#x7D22;&#x5F15;&#x8D85;&#x8D8A;&#x4E0A;&#x754C;&#xFF0C;&#x5C3E;&#x90E8;&#x589E;&#x52A0;&#xFF0C;&#x7D22;&#x5F15;&#x8D85;&#x8D8A;&#x4E0B;&#x5C4A;&#xFF0C;&#x5934;&#x90E8;&#x8FFD;&#x52A0;  
+extend(iteratable) - &gt; None  
+&#x5C06;&#x53EF;&#x8FED;&#x4EE3;&#x5BF9;&#x8C61;&#x7684;&#x5143;&#x7D20;&#x8FFD;&#x52A0;&#x8FDB;&#x6765;&#xFF0C;&#x8FD4;&#x56DE;None  
+&#x5C31;&#x5730;&#x4FEE;&#x6539;  
+ \+ - &gt; list  
+ &#x8FDE;&#x63A5;&#x64CD;&#x4F5C;&#xFF0C;&#x5C06;&#x4E24;&#x4E2A;&#x5217;&#x8868;&#x8FDE;&#x63A5;&#x8D77;&#x6765;  
+ &#x4EA7;&#x751F;&#x65B0;&#x7684;&#x5217;&#x8868;&#xFF0C;&#x539F;&#x5217;&#x8868;&#x4E0D;&#x53D8;  
+ &#x672C;&#x8D28;&#x4E0A;&#x8C03;&#x7528;&#x7684;&#x9B54;&#x672F;&#x65B9;&#x6CD5;_add_()&#x65B9;&#x6CD5;  
+ \* - &gt; list  
+ &#x91CD;&#x590D;&#x64CD;&#x4F5C;&#xFF0C;&#x5C06;&#x672C;&#x5217;&#x8868;&#x5143;&#x7D20;&#x91CD;&#x590D;n&#x6B21;&#xFF0C;&#x8FD4;&#x56DE;&#x65B0;&#x7684;&#x5217;&#x8868;
+</code></pre><h5 id="&#x5217;&#x8868;&#x5220;&#x9664;&#x5143;&#x7D20;"><a name="&#x5217;&#x8868;&#x5220;&#x9664;&#x5143;&#x7D20;" class="anchor-navigation-ex-anchor" href="#&#x5217;&#x8868;&#x5220;&#x9664;&#x5143;&#x7D20;"><i class="fa fa-link" aria-hidden="true"></i></a><a name="&#x5217;&#x8868;&#x5220;&#x9664;&#x5143;&#x7D20;" class="plugin-anchor" href="#&#x5217;&#x8868;&#x5220;&#x9664;&#x5143;&#x7D20;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x5217;&#x8868;&#x5220;&#x9664;&#x5143;&#x7D20;</h5>
+<pre><code>remove(value) - &gt; None  
+&#x4ECE;&#x5DE6;&#x81F3;&#x53F3;&#x67E5;&#x627E;&#x7B2C;&#x4E00;&#x4E2A;&#x5339;&#x914D;value&#x7684;&#x503C;&#xFF0C;&#x79FB;&#x9664;&#x8BE5;&#x5143;&#x7D20;&#xFF0C;&#x8FD4;&#x56DE;None  
+&#x5C31;&#x5730;&#x4FEE;&#x6539;  
+&#x65F6;&#x95F4;&#x590D;&#x6742;&#x5EA6;&#x662F;O(n)  
+pop([index]) - &gt; item  
+&#x4E0D;&#x6307;&#x5B9A;&#x7D22;&#x5F15;index,&#x5C31;&#x4ECE;&#x5217;&#x8868;&#x5C3E;&#x90E8;&#x5F39;&#x51FA;&#x4E00;&#x4E2A;&#x5143;&#x7D20;  
+&#x6307;&#x5B9A;&#x7D22;&#x5F15;index&#xFF0C;&#x5C31;&#x4ECE;&#x7D22;&#x5F15;&#x5904;&#x5F39;&#x51FA;&#x4E00;&#x4E2A;&#x5143;&#x7D20;&#xFF0C;&#x7D22;&#x5F15;&#x8D85;&#x754C;&#x629B;&#x51FA;IndexError&#x9519;&#x8BEF;  
+clear( ) - &gt; None  
+&#x6E05;&#x695A;&#x5217;&#x8868;&#x6240;&#x6709;&#x5143;&#x7D20;&#xFF0C;&#x5269;&#x4E0B;&#x4E00;&#x4E2A;&#x7A7A;&#x5217;&#x8868;
+</code></pre><h5 id="&#x5217;&#x8868;&#x5176;&#x4ED6;&#x64CD;&#x4F5C;"><a name="&#x5217;&#x8868;&#x5176;&#x4ED6;&#x64CD;&#x4F5C;" class="anchor-navigation-ex-anchor" href="#&#x5217;&#x8868;&#x5176;&#x4ED6;&#x64CD;&#x4F5C;"><i class="fa fa-link" aria-hidden="true"></i></a><a name="&#x5217;&#x8868;&#x5176;&#x4ED6;&#x64CD;&#x4F5C;" class="plugin-anchor" href="#&#x5217;&#x8868;&#x5176;&#x4ED6;&#x64CD;&#x4F5C;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x5217;&#x8868;&#x5176;&#x4ED6;&#x64CD;&#x4F5C;</h5>
+<pre><code>reverse( ) - &gt; None  
+&#x5C06;&#x5217;&#x8868;&#x5143;&#x7D20;&#x53CD;&#x8F6C;&#xFF0C;&#x8FD4;&#x56DE;None  
+&#x5C31;&#x5730;&#x4FEE;&#x6539;  
+sort(key=None,reverse=Flase) - &gt; None  
+&#x5BF9;&#x5217;&#x8868;&#x5143;&#x7D20;&#x8FDB;&#x884C;&#x6392;&#x5E8F;&#xFF0C;&#x5C31;&#x5730;&#x4FEE;&#x6539;&#xFF0C;&#x9ED8;&#x8BA4;&#x5347;&#x5E8F;  
+reverse&#x4E3A;True&#xFF0C;&#x53CD;&#x8F6C;&#xFF0C;&#x964D;&#x5E8F;  
+key&#x4E00;&#x4E2A;&#x51FD;&#x6570;&#xFF0C;&#x6307;&#x5B9A;key&#x5982;&#x4F55;&#x6392;&#x5E8F;  
+lst.sort(key=function)
+</code></pre><h5 id="&#x5217;&#x8868;&#x590D;&#x5236;"><a name="&#x5217;&#x8868;&#x590D;&#x5236;" class="anchor-navigation-ex-anchor" href="#&#x5217;&#x8868;&#x590D;&#x5236;"><i class="fa fa-link" aria-hidden="true"></i></a><a name="&#x5217;&#x8868;&#x590D;&#x5236;" class="plugin-anchor" href="#&#x5217;&#x8868;&#x590D;&#x5236;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x5217;&#x8868;&#x590D;&#x5236;</h5>
+<pre><code>shadow copy  
+&#x5F71;&#x5B50;&#x62F7;&#x8D1D;&#xFF0C;&#x4E5F;&#x53EB;&#x6D45;&#x62F7;&#x8D1D;&#xFF0C;&#x9047;&#x5230;&#x5F15;&#x7528;&#x7C7B;&#x578B;&#xFF0C;&#x53EA;&#x662F;&#x590D;&#x5236;&#x4E86;&#x4E00;&#x4E2A;&#x5F15;&#x7528;&#x800C;&#x5DF2;&#xFF0C;&#x7B49;&#x4E8E;&#x590D;&#x5236;&#x4E86;&#x4E00;&#x4E2A;&#x5730;&#x5740;&#xFF0C;&#x5982;&#x679C;&#x5730;&#x5740;&#x4E2D;&#x50A8;&#x5B58;&#x7684;&#x503C;&#x6539;&#x53D8;&#x7684;&#x8BDD;&#xFF0C;&#x88AB;&#x590D;&#x5236;&#x51FA;&#x53BB;&#x7684;&#x503C;&#x90FD;&#x4F1A;&#x6539;&#x53D8;  
+&#x6DF1;&#x62F7;&#x8D1D;  
+copy&#x6A21;&#x5757;&#x63D0;&#x4F9B;&#x4E86;deepcopy,&#x6DF1;&#x5EA6;&#x62F7;&#x8D1D;&#x5C31;&#x662F;&#x7ED9;&#x503C;&#x590D;&#x5236;&#x8FC7;&#x53BB;&#xFF0C;&#x539F;&#x6765;&#x7684;&#x600E;&#x4E48;&#x53D8;&#x5316;&#xFF0C;&#x590D;&#x5236;&#x8D70;&#x7684;&#x503C;&#x90FD;&#x4E0D;&#x4F1A;&#x6539;&#x53D8;&#x3002;
+</code></pre><hr>
+<footer class="page-footer"><span class="copyright">Copyright &#xA9; hubhack 2019 all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification">&#x8BE5;&#x6587;&#x4EF6;&#x4FEE;&#x8BA2;&#x65F6;&#x95F4;&#xFF1A;
+2019-06-09 09:20:56
+</span></footer>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="string.html" class="navigation navigation-prev " aria-label="Previous page: string(字符串)">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="tuple.html" class="navigation navigation-next " aria-label="Next page: tuple(元组)">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"list(列表)","level":"2.2","depth":1,"next":{"title":"tuple(元组)","level":"2.3","depth":1,"path":"objects/tuple.md","ref":"objects/tuple.md","articles":[]},"previous":{"title":"string(字符串)","level":"2.1","depth":1,"path":"objects/string.md","ref":"objects/string.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-sharing","splitter","expandable-chapters-small","anchors","tbfed-pagefooter","github","github-buttons","sharing-plus","anchor-navigation-ex","favicon"],"styles":{"website":"./styles/website.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"Copyright © hubhack 2019","modify_label":"该文件修订时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"github":{"url":"https://github.com/hubhack/"},"splitter":{},"search":{},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"anchor-navigation-ex":{"associatedWithSummary":true,"float":{"floatIcon":"fa fa-navicon","level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"mode":"float","multipleH1":true,"pageTop":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"printLog":false,"showGoTop":true,"showLevel":false},"favicon":{"shortcut":"./source/images/favicon.jpg","bookmark":"./source/images/favicon.jpg","appleTouch":"./source/images/apple-touch-icon.jpg","appleTouchMore":{"120x120":"./source/images/apple-touch-icon.jpg","180x180":"./source/images/apple-touch-icon.jpg"}},"github-buttons":{"buttons":[{"user":"hubhack","repo":"python-book","type":"star","size":"small","count":true}]},"expandable-chapters-small":{},"sharing":{"qq":false,"all":["google","facebook","weibo","twitter","qq","qzone","linkedin","pocket"],"douban":false,"facebook":false,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":false,"messenger":false,"line":false,"vk":false,"pocket":false,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"anchors":{}},"theme":"default","author":"hubhack","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"python","language":"zh-hans","links":{"sidebar":{"主页":"https://github.com/hubhack/python-book"}},"gitbook":"3.2.3","description":"python知识分享"},"file":{"path":"objects/list.md","mtime":"2019-06-09T01:20:56.477Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-06-19T14:58:35.523Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-github-buttons/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing-plus/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
