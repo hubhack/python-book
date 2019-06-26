@@ -1,24 +1,22 @@
-
-
-### 一、首先，官网下载python3的所需版本。
+#### 一、首先，官网下载python3的所需版本。
 
 [wget https://www.python.org/ftp/python/3.6.0/Python-3.6.0.tgz](https://www.python.org/ftp/python/3.6.0/Python-3.6.0.tgz)
 
 想下载到那个文件夹下就先进入到那个文件夹下——cd /home/download
 
-### 二、然后，解压缩文件
+#### 二、然后，解压缩文件
 
 tar -xvf Python-3.6.0.tgz
 
-### 三、创建安装文件的路径。
+#### 三、创建安装文件的路径。
 
 mkdir /usr/local/python3
 
-### 四、编译。
+#### 四、编译。
 
 ./configure --prefix=/usr/local/python3
 
-### 五、安装。
+#### 五、安装。
 
 1、make
 
@@ -26,7 +24,7 @@ mkdir /usr/local/python3
 
 3、完毕
 
-### 六、创建新版本的软连接。
+#### 六、创建新版本的软连接。
 
 1、修改旧版本
 
@@ -44,7 +42,7 @@ python-3.6.0
 
 软连接创建成功
 
-### 七、配置成功后，pip3用不了，需进一步配置。
+#### 七、配置成功后，pip3用不了，需进一步配置。
 
 1、PATH=$PATH:$HOME/bin:
 
