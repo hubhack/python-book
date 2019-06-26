@@ -7,6 +7,7 @@
 - [内存模型](objects/序章/内存模型.md)
 - [源码框架](objects/序章/源代码.md)
 - [开发环境](objects/序章/python部署.md)
+
 ## 第 2 部分：Python 基础 
 - [语法](objects/基础/语法.md)
 - [函数](objects/基础/函数.md)
