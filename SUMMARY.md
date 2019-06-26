@@ -6,7 +6,7 @@
 - [前言](README.md)
 - [内存模型](objects/序章/内存模型.md)
 - [源码框架](objects/序章/源代码.md)
-- [linux](objects/序章/vim配置.md)
+- [开发环境](objects/序章/python部署.md)
 ## 第 2 部分：Python 基础 
 - [语法](objects/基础/语法.md)
 - [函数](objects/基础/函数.md)
@@ -28,14 +28,15 @@
 ## 第 5 部分：Python 并发
 - [多线程](objects/并发/多线程.md)
 - [多进程](objects/并发/多进程.md)
-- [logging](objects/并发/logging.md)
+
 
 ## 第 6 部分：Python IO
 - [文件IO](objects/IO/文件操作.md)
 - [网络协议](objects/IO/网络协议.md)
 - [网络IO](objects/IO/网络io.md)
+
 ## 第7部分: 数据库
-- [关系型](objects/数据库/数据库.md)
+- [关系型](objects/数据库/关系型.md)
 - [非关系型]()
 
 ## 第8部分: web开发

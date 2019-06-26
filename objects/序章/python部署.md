@@ -1,6 +1,4 @@
-mv /usr/bin/python /usr/bin/python_bak
 
-ln -s /usr/local/python3/bin/python3 /usr/bin/python
 
 ### 一、首先，官网下载python3的所需版本。
 
@@ -8,7 +6,7 @@ ln -s /usr/local/python3/bin/python3 /usr/bin/python
 
 想下载到那个文件夹下就先进入到那个文件夹下——cd /home/download
 
-### 二、然后，解压缩文件》
+### 二、然后，解压缩文件
 
 tar -xvf Python-3.6.0.tgz
 
@@ -86,8 +84,7 @@ echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n  eval "$(pyenv init -)"\nf
 source .bashrc 
 ```
 
-
-
+```shell
 pyenv versions
 
 pyenv global 3.6.8
@@ -95,5 +92,84 @@ pyenv global 3.6.8
 virtualenv venv 
 
 source venv/bin/activate
+```
 
-neovim
+
+
+vim配置
+
+安装neovim
+
+```shell
+yum install neovim
+```
+
+第一步:下载
+
+```shell
+git clone https://github.com/Python-project-aggregate/vimrc.git
+```
+
+第二步:脚本安装
+
+```shell
+sh setup.sh
+```
+
+**安装oh-my-zsh**
+
+查看当前环境shell
+
+```shell
+echo $SHELL
+```
+
+查看系统自带那些shell
+
+```shell
+cat /etc/shells
+```
+
+安装zsh
+
+```shell
+yum install zsh
+```
+
+将zsh设置为默认shell
+
+```shell
+chsh -s /bin/zsh
+```
+
+安装oh-my-zsh
+
+自动安装
+
+```shell
+wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | sh
+```
+
+zsh主题
+
+```shell
+ls ~/.oh-my-zsh/thems
+```
+
+编辑`~/.zshrc`文件，将`ZSH_THEME="candy"`,即将主题修改为`candy.我采用的`agnoster
+
+安装node
+
+```shell
+curl -sL https://rpm.nodesource.com/setup_10.x | bash -
+yum install -y nodejs
+```
+
+安装tldr
+
+```shell
+npm install -g tldr
+```
+
+
+
