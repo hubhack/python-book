@@ -12,7 +12,7 @@
 
 您的系统上需要安装好 [node](https://nodejs.org/zh-cn/).  
 安装完成后,在cmd中输入npm-v,出现如下即为安装完成.   
-![npm](./img/npm.jpg)
+
 
 
 ## 使用 gitbook 命令
