@@ -18,3 +18,4 @@ _book
 # mac
 .DS_Store
 content/
+gitbook.bat
