@@ -38,11 +38,10 @@
 
 ## 第7部分: 数据库
 - [关系型](objects/数据库/关系型.md)
-- [非关系型]()
+- [非关系型](objects/数据库/非关系型.md)
 
 ## 第8部分: web开发
 - [aiohttp](objects/web开发/aiohttp.md)
-- [flask]()
 - [Django]()
 
 ## 第9部分: 爬虫
