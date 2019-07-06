@@ -42,6 +42,6 @@
 
 ## 第8部分: web开发
 - [aiohttp](objects/web开发/aiohttp.md)
-- [Django]()
+
 
 ## 第9部分: 爬虫
