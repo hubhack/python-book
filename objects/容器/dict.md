@@ -97,8 +97,11 @@ collections.defaultdict([default_factory[,...]])
 第一个参数是default_factory,缺省值是None，它提供一个初始化函数。当key不存在的时候，会调用这个工厂函数来生成key对应的value 
 构造一个字典，values是列表，为其添加随机个元素
 
+defaultdict(factory_function)
+defaultdict接受一个工厂函数来作为参数,这个factory_function可以是list、set、str等等，作用是当key不存在时，返回的是工厂函数的默认值，比如list对应[ ]，str对应的是空字符串，set对应set( )，int对应0.
+
 ##### OrderedDict
 collection.OrderDict([items]) 
-key并不是按照加入的顺序排列，可以使用OrderDict记录顺序 
-有序字典可以记录元素插入的顺序，打印的时候也是按照这个顺序输出打印 
+key并不是按照加入的顺序排列，可以使用OrderDict记录顺序.
+有序字典可以记录元素插入的顺序，打印的时候也是按照这个顺序输出打印.
 3.6版本的Python的字典就是记录key插入的顺序(IPython不一定由效果)
