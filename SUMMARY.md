@@ -5,6 +5,7 @@
 
 - [前言](README.md)
 - [内存模型](objects/序章/内存模型.md)
+- [数据结构](objects/序章/数据结构.md)
 - [源码框架](objects/序章/源代码.md)
 - [开发环境](objects/序章/python部署.md)
 
@@ -29,6 +30,7 @@
 ## 第 5 部分：Python 并发
 - [多线程](objects/并发/多线程.md)
 - [多进程](objects/并发/多进程.md)
+- [IO多路复用](objects/并发/IO多路复用.md)
 
 
 ## 第 6 部分：Python IO
@@ -44,3 +46,7 @@
 - [aiohttp](objects/web开发/aiohttp.md)
 
 ## 第9部分: 爬虫
+- [http请求](objects/爬虫/http请求.md)
+ 
+## 第10部分: 数据分析
+- [数据分析](objects/数据分析/数据分析.md)
