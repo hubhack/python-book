@@ -127,6 +127,46 @@ MongoDB中可以创建使用多个库, 但有一些数据库名是保留, 可以
 - local: 这个数据永远不会被复制,可以用来存储咸鱼单台服务器的任意集合.
 - config: 当Mongo用于分片设置时, config数据库在内部使用,用于保存分片的相关信息.
 
+插入数据
+
+````
+from pymongo.results import InsertOneResult
+user1 = {'id': '1', 'name': 'ben', 'age': 20}
+
+x:InsertOneResult = users.insert_one(user1)
+print(type(x), x)
+# 批量插入
+result = users.insert_many([user2, user3])
+print(result.inserted_ids)
+````
+
+每条数据插入都有一个唯一key, 属性_id唯一标识一个文档. 没有没有显示指明该属性, 会自动生成一个objectldl类型_id属性.
+
+objectld有12字节
+
+- 4字节时间戳
+- 3字节机器识别码
+- 2字节进程id
+- 3字节随机数
+
+文档
+
+每一条记录对应一个文档, 其格式使用bson. bson即binary json.
+
+文档中, 使用键值对
+
+文档中的键值对是有序的.
+
+键是字符串
+
+- 区分大小写, 使用utf-8字符
+- 键不能含有\0.这个字符串来表示键字符串的结尾
+- 值可以是
+  - 字符串, 32位或64位整数, 双精度,时间戳, 布尔型, null
+  - 字节数组, bson数组, bson对象
+
+
+
 
 
 
