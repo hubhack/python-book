@@ -54,6 +54,7 @@
 
 ## 第9部分: 爬虫
 - [http请求](objects/爬虫/http请求.md)
+- [scrapy](objects/爬虫/scrapy.md)
  
 ## 第10部分: 数据分析
 - [数据分析](objects/数据分析/数据分析.md)
