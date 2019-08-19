@@ -43,7 +43,8 @@ Flask中, 基本上都是route装饰器和视图函数的映射, 如果函数很
 BluePrint构造参数
 - name, 蓝图名字, 注册在app的蓝图字典中,用的key.
 - import_name, 用来计算蓝图模块所在的路径, 一般写__name__.
-- root_path, 指定蓝图模块所在的路径, 如果为None, 使用import_name计算得到
+- root_path, 指定蓝图模块所在的路径, 如果为None, 使用import_name计算得到.
+
 
 
 
