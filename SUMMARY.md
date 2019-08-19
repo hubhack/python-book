@@ -41,10 +41,16 @@
 
 ## 第7部分: 数据库
 - [关系型](objects/数据库/关系型.md)
-- [非关系型](objects/数据库/非关系型.md)
+- [redis](objects/数据库/redis.md)
+- [mongodb](objects/数据库/mongodb.md)
+- [ElasticSearch](objects/数据库/ElasticSearch.md)
+- [postgresql](objects/数据库/postgersql.md)
 
 ## 第8部分: web开发
 - [aiohttp](objects/web开发/aiohttp.md)
+- [flask](objects/web开发/flask.md)
+- [Django](objects/web开发/Django.md)
+- [tornado](objects/web开发/tornado.md)
 
 ## 第9部分: 爬虫
 - [http请求](objects/爬虫/http请求.md)
