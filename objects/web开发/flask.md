@@ -35,7 +35,7 @@ from webapp import app
 
 if __name__ == '__main__':
     app.run('0.0.0.0', 80, True)
-
+```
 
 ### 蓝图
 Flask中, 基本上都是route装饰器和视图函数的映射, 如果函数很多, 代码结构会非常乱.
@@ -46,6 +46,15 @@ BluePrint构造参数
 - root_path, 指定蓝图模块所在的路径, 如果为None, 使用import_name计算得到.
 
 
+---
+url传参方式
+指定参数类型
+- string:默认的数据类型
+- int: 接受整型
+- float: 浮点型
+- path: 和string的类似,但是接受斜杆
+- any: 可以指定多个路径
+- uuid: 只接受uuid字符串
 
 
 
